@@ -1,0 +1,14 @@
+:root {
+  /* fonts */
+  --poppins: "Poppins";
+  --poppinsbold: "PoppinsBold";
+  --poppinsextrabold: "PoppinsExtraBold";
+  --passionThin: "PassionThin";
+
+  /* colorTheme */
+  --main-color: #12222f;
+  --omni-yellow: #feba16;
+  --omni-light-purple: #bb3795;
+  --momni-purple: #a14198;
+  --omni-white: #ffffff;
+}
