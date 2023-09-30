@@ -1,13 +1,36 @@
 <?php echo get_header(); ?>
-<main class="blog-main global-width">
-    <div class="blog-sec1">
-        <section class="blog-intro">
-            <h2>Omniverse Articles</h2>
-            <p> omniverse updates</p>
+<main class="content-main global-width">
+
+    <section class="single-content">
+
+        <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy" alt=""></h2>
+        <div class="sinlge-detials">
+            <p>
+                <?php echo get_the_date('F j, Y'); ?>
+            </p>
+            <p>
+                <?php the_title(); ?>
+            </p>
+            <p>
+                <?php the_content(); ?>
+            </p>
+
+        </div>
+    </section>
+    <div class="single-info">
+        <section>
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</h2>
+            <p>Follow us on our Social media for more updates:</p>
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-linkedin"></a>
         </section>
-        <section class="blogarticles">
+    </div>
+
+    <section class="blogarticles single-padding">
             <?php
-            $contentview = array('post_type' => 'content', 'posts_per_page' => -1);
+            $contentview = array('post_type' => 'content', 'posts_per_page' => 3);
 
             $contentquery = new WP_Query($contentview);
 
@@ -41,6 +64,5 @@
             </section>
         <?php endif; ?>
         </section>
-    </div>
 </main>
 <?php echo get_footer(); ?>

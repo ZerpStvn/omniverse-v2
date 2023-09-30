@@ -94,7 +94,7 @@
                         <p>
                             <?php echo the_title(); ?>
                         </p>
-                        <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">Read more</a>
+                        <a id="buttonread" href="<?php echo get_home_url() . "/blogs" ?>">Read more</a>
                         <?php
                     endwhile;
                     wp_reset_postdata();
@@ -113,7 +113,7 @@
                         <?php while ($contentquery->have_posts()):
                             $contentquery->the_post();
                             ?>
-                            <a style="text-decoration:none; cursor:pointer;" href="">
+                            <a style="text-decoration:none; cursor:pointer;" href="<?php echo get_permalink() ?>">
                                 <li>
                                     <section>
                                         <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy"
@@ -125,9 +125,9 @@
                                             </span><br>
                                             <?php echo the_title(); ?>
                                         </p>
-                                        
+
                                     </section>
-                                    
+
                                 </li>
                             </a>
                             <?php
@@ -141,6 +141,16 @@
         <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">
             More Article
         </a>
+    </div>
+    <div class="section5">
+
+        <img src="<?php echo OMNI_IMG . "/sample-img2.png" ?>" alt="">
+        <section>
+            <h2>Lorem Ipsum Seacetem Lorem</h2>
+            <p>Contact us for more details</p>
+            <a href="<?php echo get_home_url(). "/contact"?>">CONTACT US</a>
+        </section>
+       
     </div>
 </main>
 <?php get_footer() ?>
