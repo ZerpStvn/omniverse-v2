@@ -320,10 +320,5 @@ body {
     display: block;
     text-align: center;
   }
-  .blogslist a > li > section > h2 > img{
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
 
-  }
 }

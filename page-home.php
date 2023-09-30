@@ -125,7 +125,9 @@
                                             </span><br>
                                             <?php echo the_title(); ?>
                                         </p>
+                                        
                                     </section>
+                                    
                                 </li>
                             </a>
                             <?php
