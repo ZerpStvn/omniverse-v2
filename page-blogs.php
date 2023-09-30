@@ -1,4 +1,12 @@
 <?php echo get_header(); ?>
+<div class="contactfloat global-width">
+       <a href="<?php echo get_home_url()?>">
+         <section>
+            <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
+            <p>Contact Us</p>
+        </section>
+       </a>
+    </div>
 <main class="blog-main global-width">
 <div class="navbar">
         <section>

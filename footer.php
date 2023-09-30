@@ -45,7 +45,7 @@
             </li>
             <li>
                 <p><span><img src="<?php echo OMNI_IMG . "/ico_phone.svg" ?>" alt="Omniverse Phone"></span>
-                    63+9213456789</p>
+                    +639213456789</p>
             </li>
 
         </ul>

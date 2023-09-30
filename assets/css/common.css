@@ -16,7 +16,45 @@ body {
 .global-padding {
   padding: 12px 30px;
 }
-
+/* button float */
+.contactfloat {
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+  z-index: 2;
+}
+.contactfloat >a{
+  color: var(--main-color);
+  text-decoration: none;
+}
+.contactfloat >a> section {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--omni-yellow);
+  box-shadow: 0px 0px 1px 3px white;
+}
+.contactfloat >a> section {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--omni-yellow);
+}
+.contactfloat > a>section > h2 > img {
+  width: 38px;
+  height: 38px;
+}
+.contactfloat > a>section > p {
+  font-size: 13px;
+}
 /*section 1  */
 .section1 {
   position: relative;
@@ -301,8 +339,9 @@ body {
   border-radius: 10px;
   background-color: var(--omni-yellow);
 }
-@media (max-width:1228px) {
-  .section2-vid > iframe,.section3-vid > iframe {
+@media (max-width: 1228px) {
+  .section2-vid > iframe,
+  .section3-vid > iframe {
     width: 92%;
     height: 350px;
   }
@@ -327,6 +366,16 @@ body {
   }
   .section1-details > p:nth-child(1) {
     max-width: 2094px;
+  }
+
+  .section3 > section > h2,
+  .section3 > section > h2 {
+    max-width: 994px;
+  }
+  /* button float */
+  .contactfloat {
+    right: 52px;
+    bottom: 55px;
   }
 }
 @media (max-width: 788px) {
@@ -363,6 +412,10 @@ body {
     width: 100%;
     height: 393px;
   }
+  .contactfloat{
+    right: 36px;
+  }
+  /* button float */
 }
 
 @media (max-width: 488px) {
@@ -389,6 +442,15 @@ body {
     display: block;
     text-align: center;
   }
+  .listarticle > a > li > section {
+    flex-direction: column;
+    gap: 0px;
+}
+.listarticle > a > li > section > h2 > img {
+  width: 100%;
+  border-radius: 5px;
+  
+}
   .section5 > section > h2 {
     font-size: 26px;
     text-align: center;
@@ -397,5 +459,16 @@ body {
     font-size: 18px;
     padding: 11px 8px;
     width: 248px;
-}
+  }
+  .contactfloat{
+    right: 16px;
+  }
+  .contactfloat >a> section {
+      width: 100px ;
+      height: 100px;
+  
+  }
+  .contactfloat >a> section > p{
+   font-size: 12px
+  };
 }

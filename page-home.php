@@ -1,5 +1,14 @@
 <?php get_header() ?>
+<div class="contactfloat global-width">
+       <a href="<?php echo get_home_url()?>">
+         <section>
+            <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
+            <p>Contact Us</p>
+        </section>
+       </a>
+    </div>
 <main class="hom-main global-width">
+
     <div class="navbar">
         <section>
             <div class="header-menu">
@@ -26,13 +35,13 @@
     <section id="section1" class="section1">
         <h2><img src="<?php echo OMNI_IMG . "/sample-img1.png" ?>" alt=""></h2>
         <div class="section-details-wrap">
-            <div class="section-deatils-container">
-                <div class="section1-details ">
+            <div data-aos="fade-right" class="section-deatils-container">
+                <div data-aos="fade-right" class="section1-details ">
                     <p>Empowering Clean Energy Worldwide with Innovative Solutions.</p>
                     <p>Power your business with renewable energy.</p>
                     <a id="main-button" href=""> Learn More <i></i></a>
                 </div>
-                <div class="section1-vid">
+                <div data-aos="fade-left" data-aos="fade-left" class="section1-vid">
                     <iframe width="500" height="315" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=0pZh-BU4_HypvQ5n"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -43,13 +52,13 @@
 
     </section>
     <div id="section2" class="section2">
-        <section>
+        <section data-aos="fade-right">
             <h2>Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)</h2>
             <p>Omniverse Energy Management: A SEC-registered leader in clean energy, committed to sustainable solutions
                 with global patents and a mission for excellence.</p>
             <a id="main-button" href=""> Learn More <i></i></a>
         </section>
-        <div class="section2-vid"> <iframe width="500" height="315"
+        <div data-aos="fade-left" class="section2-vid"> <iframe width="500" height="315"
                 src="https://www.youtube.com/embed/1kUE0BZtTRc?si=0pZh-BU4_HypvQ5n" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -57,20 +66,20 @@
         </div>
     </div>
     <div id="section3" class="section3">
-        <section>
+        <section data-aos="fade-left">
             <h2>Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)</h2>
             <p>Omniverse Energy Management: A SEC-registered leader in clean energy, committed to sustainable solutions
                 with global patents and a mission for excellence.</p>
             <a id="main-button" href=""> Learn More <i></i></a>
         </section>
-        <div class="section3-vid"> <iframe width="500" height="315"
+        <div data-aos="fade-right" class="section3-vid"> <iframe width="500" height="315"
                 src="https://www.youtube.com/embed/1kUE0BZtTRc?si=0pZh-BU4_HypvQ5n" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
     </div>
-    <div id="section4" class="section4">
+    <div data-aos="fade-right" id="section4" class="section4">
         <section>
             <h2>Omniverse Updates</h2>
             <a id="morearticle" href="<?php echo get_home_url() . "/blogs" ?>">More Articles</a>
