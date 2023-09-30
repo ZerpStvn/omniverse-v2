@@ -34,6 +34,7 @@
 }
 .contact-details > .contactif > section {
   padding: 30px;
+  border-bottom: 1px solid;
 }
 .contact-details > .contactif > section > ul {
   margin-top: 10px;

@@ -1,5 +1,28 @@
 <?php echo get_header(); ?>
 <main class="conact-main global-width">
+    <div class="navbar">
+        <section>
+            <div class="header-menu">
+                <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
+                            src="<?php echo OMNI_IMG . "/Omniverse-logo.svg" ?>" alt="omniverse"></a></h1>
+                <a class="close menunav">
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <nav>
+
+                <ul>
+                    <li><a href="<?php echo get_home_url() . "/home" ?>">Home</a></li>
+                    <li><a href="<?php echo get_home_url() . "/about" ?>">Who We Are</a></li>
+                    <li><a href="<?php echo get_home_url() . "/offer" ?>">What we offer</a></li>
+                    <li><a href="<?php echo get_home_url() . "/blogs" ?>">Updates</a></li>
+                    <li><a href="<?php echo get_home_url() . "/contact" ?>">Contact</a></li>
+
+                </ul>
+            </nav>
+        </section>
+    </div>
     <div class="contact1">
         <img src="<?php echo OMNI_IMG . "/sample-img2.png" ?>" alt="">
         <section>
@@ -25,7 +48,7 @@
                         </li>
                         <li>
                             <p><span><img src="<?php echo OMNI_IMG . "/ico_phone.svg" ?>" alt="Omniverse Phone"></span>
-                                63+9213456789</p>
+                                +639213456789</p>
                         </li>
 
                     </ul>
@@ -52,7 +75,7 @@
 
                 </section>
                 <section class="contact-lincese">
-                    <h2>Contact Details</h2>
+                    <!-- <h2>Contact Details</h2> -->
                     <ul>
                         <li>
                             <section>

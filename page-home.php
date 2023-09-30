@@ -3,7 +3,8 @@
     <div class="navbar">
         <section>
             <div class="header-menu">
-                <h1><img src="<?php echo OMNI_IMG . "/Omniverse-logo.svg" ?>" alt="omniverse"></h1>
+                <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
+                            src="<?php echo OMNI_IMG . "/Omniverse-logo.svg" ?>" alt="omniverse"></a></h1>
                 <a class="close menunav">
                     <span></span>
                     <span></span>
@@ -12,11 +13,12 @@
             <nav>
 
                 <ul>
-                    <li>Home</li>
-                    <li>Who We Are</li>
-                    <li>What we offer</li>
-                    <li>Updates</li>
-                    <li>Contact</li>
+                    <li><a href="<?php echo get_home_url() . "/home" ?>">Home</a></li>
+                    <li><a href="<?php echo get_home_url() . "/about" ?>">Who We Are</a></li>
+                    <li><a href="<?php echo get_home_url() . "/offer" ?>">What we offer</a></li>
+                    <li><a href="<?php echo get_home_url() . "/blogs" ?>">Updates</a></li>
+                    <li><a href="<?php echo get_home_url() . "/contact" ?>">Contact</a></li>
+
                 </ul>
             </nav>
         </section>
@@ -148,9 +150,9 @@
         <section>
             <h2>Lorem Ipsum Seacetem Lorem</h2>
             <p>Contact us for more details</p>
-            <a href="<?php echo get_home_url(). "/contact"?>">CONTACT US</a>
+            <a href="<?php echo get_home_url() . "/contact" ?>">CONTACT US</a>
         </section>
-       
+
     </div>
 </main>
 <?php get_footer() ?>
