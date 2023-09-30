@@ -23,6 +23,7 @@ function add_theme()
     wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css');
     wp_enqueue_style('fonts_css', OMNI_CSS . '/fonts.css');
     wp_enqueue_style('root_css', OMNI_CSS . '/root.css');
+    wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css');
 
 
     // scripts

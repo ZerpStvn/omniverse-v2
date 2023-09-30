@@ -71,12 +71,74 @@
     <div id="section4" class="section4">
         <section>
             <h2>Omniverse Updates</h2>
-            <p>More Articles</p>
+            <a id="morearticle" href="<?php echo get_home_url() . "/blogs" ?>">More Articles</a>
+
         </section>
         <div class="article-section">
-            <div class="article1"></div>
-            <div class="article2"></div>
+
+            <?php
+            $contentview = array('post_type' => 'content', 'posts_per_page' => 1);
+
+            $contentquery = new WP_Query($contentview);
+
+            if ($contentquery->have_posts()):
+                ?>
+                <section class="latestarticle">
+                    <?php while ($contentquery->have_posts()):
+                        $contentquery->the_post();
+                        ?>
+                        <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy" alt="Omniverse blog"></h2>
+                        <p>
+                            <?php echo get_the_date('F j, Y'); ?>
+                        </p>
+                        <p>
+                            <?php echo the_title(); ?>
+                        </p>
+                        <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">Read more</a>
+                        <?php
+                    endwhile;
+                    wp_reset_postdata();
+                    ?>
+                </section>
+            <?php endif; ?>
+            <div class="article2">
+                <?php
+                $contentview = array('post_type' => 'content', 'posts_per_page' => 6);
+
+                $contentquery = new WP_Query($contentview);
+
+                if ($contentquery->have_posts()):
+                    ?>
+                    <ul class="listarticle">
+                        <?php while ($contentquery->have_posts()):
+                            $contentquery->the_post();
+                            ?>
+                            <a style="text-decoration:none; cursor:pointer;" href="">
+                                <li>
+                                    <section>
+                                        <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy"
+                                                alt="Omniverse blog"></h2>
+
+                                        <p>
+                                            <span>
+                                                <?php echo get_the_date('F j, Y'); ?>
+                                            </span><br>
+                                            <?php echo the_title(); ?>
+                                        </p>
+                                    </section>
+                                </li>
+                            </a>
+                            <?php
+                        endwhile;
+                        wp_reset_postdata();
+                        ?>
+                        </section>
+                    <?php endif; ?>
+            </div>
         </div>
+        <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">
+            More Article
+        </a>
     </div>
 </main>
 <?php get_footer() ?>

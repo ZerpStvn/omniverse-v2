@@ -1,0 +1,10 @@
+.blog-sec1{
+    padding: 105px 20px;
+ 
+}
+.blog-sec1 > section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 20px;
+}
