@@ -24,6 +24,7 @@ function add_theme()
     wp_enqueue_style('fonts_css', OMNI_CSS . '/fonts.css');
     wp_enqueue_style('root_css', OMNI_CSS . '/root.css');
     wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css');
+    wp_enqueue_style('message_css', OMNI_CSS . '/message.css');
 
 
     // scripts
@@ -85,11 +86,19 @@ function add_pages()
         array(
             'post_title' => 'Privacy Policy',
             'post_content' => 'Privacy Policy',
-            'post_excerpt' => 'Getting to know us',
+            'post_excerpt' => 'Omniverse Privacy Policy',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
             'post_name' => 'privacy'
+        ),
+        array(
+            'post_title' => 'Thank You',
+            'post_content' => 'Thank You',
+            'post_status' => 'publish',
+            'post_author' => 1,
+            'post_type' => 'page',
+            'post_name' => 'thank-you'
         ),
 
 
