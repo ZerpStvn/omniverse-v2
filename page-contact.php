@@ -131,6 +131,9 @@
                         <label for="">Message</label>
                         <textarea name="message" id="" cols="30" rows="10"></textarea>
                     </div>
+                    <Button type="submit" id="submitbtton">
+                        SUBMIT
+                    </Button>
                 </form>
             </div>
         </div>
