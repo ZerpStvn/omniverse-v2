@@ -1,12 +1,12 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-       <a href="<?php echo get_home_url()?>">
-         <section>
+    <a href="<?php echo get_home_url() ?>">
+        <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>
         </section>
-       </a>
-    </div>
+    </a>
+</div>
 <main class="offer-main global-width">
     <div class="navbar">
         <section>
@@ -29,6 +29,13 @@
 
                 </ul>
             </nav>
+        </section>
+    </div>
+    <div class="about1 offer">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <section>
+            <h2>THE TECHNOLOGY</h2>
+            <p>The Electromagnetic Energy-Flux Reactor</p>
         </section>
     </div>
 </main>

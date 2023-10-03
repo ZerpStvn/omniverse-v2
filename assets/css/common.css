@@ -23,11 +23,11 @@ body {
   right: 120px;
   z-index: 2;
 }
-.contactfloat >a{
+.contactfloat > a {
   color: var(--main-color);
   text-decoration: none;
 }
-.contactfloat >a> section {
+.contactfloat > a > section {
   width: 128px;
   height: 128px;
   display: flex;
@@ -38,7 +38,7 @@ body {
   background-color: var(--omni-yellow);
   box-shadow: 0px 0px 1px 3px white;
 }
-.contactfloat >a> section {
+.contactfloat > a > section {
   width: 128px;
   height: 128px;
   display: flex;
@@ -48,11 +48,11 @@ body {
   border-radius: 50%;
   background-color: var(--omni-yellow);
 }
-.contactfloat > a>section > h2 > img {
+.contactfloat > a > section > h2 > img {
   width: 38px;
   height: 38px;
 }
-.contactfloat > a>section > p {
+.contactfloat > a > section > p {
   font-size: 13px;
 }
 /*section 1  */
@@ -123,7 +123,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-#main-button:hover {
+/* #main-button:hover {
   font-weight: 400;
   width: 19%;
   margin-top: 20px;
@@ -135,6 +135,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+.section1-vid > video {
+  border-radius: 4px;
 }
 .section1-vid {
   border-radius: 20px;
@@ -161,6 +164,13 @@ body {
   font-family: var(--poppinsthin);
   width: 100%;
 }
+.section2-vid > img,
+.section3-vid > img {
+  max-width: 600px;
+  width: 100%;
+  height: 374px;
+  border-radius: 5px;
+}
 /* section3 */
 .section3 {
   background: var(--main-color);
@@ -186,6 +196,99 @@ body {
   max-width: 589px;
   font-family: var(--poppinsthin);
   width: 100%;
+}
+/* flag patent */
+.pantentsection {
+  padding: 105px 20px;
+}
+.pantentsection > section > h2 {
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--main-color);
+}
+.flagspatent {
+  margin-top: 50px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.flagspatent > li > p {
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-align: start;
+}
+
+.flagspatent > li > p > span > img {
+  border: 1px solid black;
+  background-size: contain;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 30px;
+}
+/* info section */
+.infosectionn {
+  width: 100%;
+  height: 714px;
+  position: relative;
+}
+.infosectionn > img {
+  width: 100%;
+  height: inherit;
+}
+.timeline {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.timelinephase {
+  width: 2px;
+  background-color: white;
+  height: 700px;
+  position: relative;
+  margin-left: 30px;
+}
+#dot1,
+#dot2,
+#dot3,
+#dot4 {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  transform: translateX(-20px);
+  background-color: white;
+  border: 3px solid white;
+}
+#dot2 {
+  top: 31%;
+}
+#dot3 {
+  top: 59%;
+}
+#dot4 {
+  top: 82%;
+}
+.timelineinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+}
+.timelineinfo > p {
+  padding: 20px;
+  border: 1px solid white;
 }
 /* section4 */
 .section4 {
@@ -296,7 +399,42 @@ body {
   color: black;
   cursor: pointer;
 }
+/* corporate */
+.corporate {
+  background-color: aliceblue;
+}
+.corporate > section {
+  padding: 105px 20px;
+}
 
+.corporate > section > h2 {
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.corporate > section > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.corporate > section > ul > li {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+.corporate > section > ul > li > section > h3 > img {
+  max-width: 290px;
+  width: 100%;
+  height: 66px;
+  object-fit: cover;
+}
+.corporate > section > ul > li > section > p {
+  text-align: center;
+}
 /* section 5 */
 .section5 {
   padding: 105px 0 0 0;
@@ -324,8 +462,9 @@ body {
   justify-content: center;
 }
 .section5 > section > h2 {
-  font-size: 36px;
+  font-size: 56px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .section5 > section > a {
   margin-top: 20px;
@@ -340,18 +479,45 @@ body {
   background-color: var(--omni-yellow);
 }
 @media (max-width: 1228px) {
-  .section2-vid > iframe,
-  .section3-vid > iframe {
-    width: 92%;
-    height: 350px;
+  .section1-vid,
+  .section2-vid,
+  .section3-vid {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .section2-vid > img,
+  .section3-vid > img {
+    max-width: 1000px;
+    width: 100%;
+    height: 296px;
+    object-fit: cover;
+  }
+  .section3 > section > h2,
+  .section3 > section > p,
+  .section2 > section > h2,
+  .section2 > section > p {
+    max-width: 994px;
+  }
+  .flagspatent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .infosectionn {
+    height: 830px;
   }
 }
 @media (max-width: 1016px) {
+  .section3 {
+    flex-direction: column-reverse;
+  }
   .section1 {
     height: 800px;
   }
   .section1 > h2 > img {
     height: 800px;
+  }
+  .section2 > section > h2,
+  .section2 > section > p {
+    max-width: 994px;
   }
   .section1-vid,
   .section2-vid,
@@ -359,10 +525,12 @@ body {
     margin-top: 10px;
     width: 100%;
   }
-  .section3-vid > iframe,
-  .section2-vid > iframe,
-  .section1-vid > iframe {
+  .section3-vid > img,
+  .section2-vid > img,
+  .section1-vid > video {
     width: 100%;
+    height: 356px;
+    object-fit: cover;
   }
   .section1-details > p:nth-child(1) {
     max-width: 2094px;
@@ -376,6 +544,14 @@ body {
   .contactfloat {
     right: 52px;
     bottom: 55px;
+  }
+}
+@media (max-width: 888px) {
+  .infosectionn {
+    height: 941px;
+  }
+  .timelinephase {
+    height: 826px;
   }
 }
 @media (max-width: 788px) {
@@ -395,6 +571,9 @@ body {
   .section2 > section > p {
     font-size: 17px;
   }
+  .section2 {
+    flex-direction: column-reverse;
+  }
   #main-button {
     font-weight: 400;
     max-width: 900px;
@@ -412,8 +591,22 @@ body {
     width: 100%;
     height: 393px;
   }
-  .contactfloat{
+  .contactfloat {
     right: 36px;
+  }
+  .flagspatent {
+    grid-template-columns: 1fr 1fr;
+  }
+  .timelinephase {
+    display: none;
+  }
+  .timeline {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .timelineinfo {
+    gap: 23px;
   }
   /* button float */
 }
@@ -445,12 +638,11 @@ body {
   .listarticle > a > li > section {
     flex-direction: column;
     gap: 0px;
-}
-.listarticle > a > li > section > h2 > img {
-  width: 100%;
-  border-radius: 5px;
-  
-}
+  }
+  .listarticle > a > li > section > h2 > img {
+    width: 100%;
+    border-radius: 5px;
+  }
   .section5 > section > h2 {
     font-size: 26px;
     text-align: center;
@@ -460,15 +652,18 @@ body {
     padding: 11px 8px;
     width: 248px;
   }
-  .contactfloat{
+  .contactfloat {
     right: 16px;
   }
-  .contactfloat >a> section {
-      width: 100px ;
-      height: 100px;
-  
+  .contactfloat > a > section {
+    width: 100px;
+    height: 100px;
   }
-  .contactfloat >a> section > p{
-   font-size: 12px
-  };
+  .contactfloat > a > section > p {
+    font-size: 12px;
+  }
+  .infosectionn {
+    height: 1264px;
+    object-fit: cover;
+  }
 }

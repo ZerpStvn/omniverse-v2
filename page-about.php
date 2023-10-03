@@ -1,12 +1,12 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-       <a href="<?php echo get_home_url()?>">
-         <section>
+    <a href="<?php echo get_home_url() ?>">
+        <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>
         </section>
-       </a>
-    </div>
+    </a>
+</div>
 <main class="about-main global-width">
     <div class="navbar">
         <section>
@@ -32,7 +32,7 @@
         </section>
     </div>
     <div class="about1">
-        <img src="<?php echo OMNI_IMG . "/sample-img2.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
         <section>
             <h2>About Us</h2>
             <p>Omniverse Energy Management Inc.</p>
@@ -41,26 +41,109 @@
     <div class="about2">
         <section>
             <h2>Omniverse Energy Management Inc</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Founded in 2023, is a reputable company operating as an authorized sub-licensee of Gem Power Philippines,
+                and it operates under the esteemed umbrella of the Inventor's Own company, Green Energy Machine
+                Investment Corp. With a strong commitment to Corporate Social Responsibility, Omniverse is deeply
+                invested in contributing to the Philippines' sustainable development. By being an authorized
+                sub-licensee of Gem Power Philippines, Omniverse gains access to cutting-edge technologies and resources
+                to fulfill its mission effectively.</p>
         </section>
-        <img src="<?php echo OMNI_IMG . "/sample-img1.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" alt="">
     </div>
+
     <div class="about3">
         <section>
-            <h2>Omniverse Energy Management Inc</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2>Omniverse Energy Management, Inc</h2>
+            <p> is focused on delivering sustainable solutions fueled by Electromagnetic Energy-flux Reactor (EER)
+                Stationary Power Generation (SPG) System. This technology is globally patented under US Patent No.
+                9444264 with the endorsement of the esteemed inventor, Engr. Bonifacio Eyales. His company, Green Energy
+                Machine Investment Corp. (GEM), is licensed to grant sub-licenses to customers across private and
+                government sectors. Presently, we have the exclusive license from GEM Investment Corp. (GEM)</p>
         </section>
-        <img src="<?php echo OMNI_IMG . "/sample-img1.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" alt="">
+    </div>
+
+    <div class="col-miss">
+        <section class="vision">
+            <h2>Vision Statement</h2>
+            <p>The leading solution provider of innovative green energy resource , pioneering our nation's transition to
+                a sustainable and clean environment.
+            </p>
+        </section>
+        <section class="mission">
+            <h2>Mission Statement</h2>
+            <p>
+                We are dedicated to delivering innovative energy management solutions through
+                <br>1.reducing carbon footprints,
+                <br>2. fostering sustainability in businesses and building communities through inclusive practices
+                <br>3. Organizational excellence anchored on Customer Centricity, Accountability and Integrity, Research
+                and
+                Development.
+
+            </p>
+        </section>
+        <section class="corevalue">
+            <h2>Corporate Core Values</h2>
+            <p>Customer Centricity, Integrity, Accountability Responsibility, Sustainability,
+                Compassionate Service, Environmental Consciousness Innovation.
+            </p>
+        </section>
+    </div>
+    <div class="col-about1">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <section class="history">
+            <h2>A Brief overview of the company’s History
+            </h2>
+            <p>Omniverse Energy Management Inc. is driven by a dynamic and diverse team of professionals who are united
+                by a shared vision and commitment to promoting clean and green energy solutions, while simultaneously
+                fostering economic growth and sustainability within their country. This dedicated team comprises
+                individuals from various backgrounds
+            </p>
+        </section>
+    </div>
+    <div class="col-background">
+        <ul class="about-bg">
+            <li>
+                <img src="<?php echo OMNI_IMG . "/lawyers.png" ?>" alt="">
+                <section>
+                    <h2>Business Professionals</h2>
+                    <p>These individuals bring their expertise in strategic planning, market analysis, and financial
+                        management to the table. Their insights help Omniverse Energy Management Inc. make informed
+                        decisions and navigate the business landscape effectively.
+                    </p>
+                </section>
+            </li>
+            <li>
+                <img src="<?php echo OMNI_IMG . "/bsne.png" ?>" alt="">
+                <section>
+                    <h2>Lawyers</h2>
+                    <p>Legal experts within the team play a crucial role in ensuring that the company operates in
+                        compliance
+                        with regulations and can navigate legal complexities that often arise in the energy sector. They
+                        help protect the company's interests while adhering to ethical standards.
+                    </p>
+                </section>
+            </li>
+            <li>
+                <img src="<?php echo OMNI_IMG . "/eng.png" ?>" alt="">
+                <section>
+                    <h2>Engineers</h2>
+                    <p>Engineers on the team are at the forefront of technological innovation. They are responsible for
+                        designing and implementing cutting-edge green energy solutions, optimizing energy efficiency,
+                        and ensuring the technical feasibility of projects undertaken by the company.
+                    </p>
+                </section>
+            </li>
+        </ul>
+    </div>
+    <div class="col-about-bg2">
+        <section>
+            <p>What unites these professionals is their unwavering commitment to social responsibility and
+                sustainability. They are passionate advocates for clean energy and believe in its potential to transform
+                the country's energy landscape. Omniverse Energy Management Inc.'s team operates with a holistic vision
+            </p>
+
+        </section>
     </div>
     <div class="about4">
         <section>
@@ -244,12 +327,13 @@
             More Article
         </a>
     </div>
+
     <div class="section5">
 
-        <img src="<?php echo OMNI_IMG . "/sample-img2.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
         <section>
-            <h2>Lorem Ipsum Seacetem Lorem</h2>
-            <p>Contact us for more details</p>
+            <h2>Visit Contact Page</h2>
+            <p>Reach out to us for any inquiries, questions, or feedback</p>
             <a href="<?php echo get_home_url() . "/contact" ?>">CONTACT US</a>
         </section>
 

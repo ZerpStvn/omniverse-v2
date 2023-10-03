@@ -36,7 +36,7 @@
         <ul>
             <li>
                 <p><span><img src="<?php echo OMNI_IMG . "/ico_mail.svg" ?>" alt="Omniverse Email"></span>
-                    ceo@omniverse.com.ph</p>
+                    info@omniverse.com.ph</p>
             </li>
 
             <li>
@@ -45,7 +45,7 @@
             </li>
             <li>
                 <p><span><img src="<?php echo OMNI_IMG . "/ico_phone.svg" ?>" alt="Omniverse Phone"></span>
-                    +639213456789</p>
+                    +63 0916 215 4768</p>
             </li>
 
         </ul>
