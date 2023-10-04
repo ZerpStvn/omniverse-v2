@@ -26,6 +26,7 @@
                     <li><a href="<?php echo get_home_url() . "/about" ?>">Who We Are</a></li>
                     <li><a href="<?php echo get_home_url() . "/offer" ?>">What we offer</a></li>
                     <li><a href="<?php echo get_home_url() . "/blogs" ?>">Updates</a></li>
+                    <li><a href="<?php echo get_home_url() . "/faqspage" ?>">FAQs</a></li>
                     <li><a href="<?php echo get_home_url() . "/contact" ?>">Contact</a></li>
 
                 </ul>
@@ -290,7 +291,7 @@
     </div>
     <div class="offer9">
         <section>
-            <h2>Lest Power the Future Together</h2>
+            <h2>Let's Power the Future Together</h2>
             <p>Highlights</p>
         </section>
         <ul class="higlightlist">

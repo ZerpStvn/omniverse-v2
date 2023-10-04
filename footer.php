@@ -21,10 +21,9 @@
         </ul>
     </section>
     <section id="footer-row3" class="footer-row3">
-        <h2>Discovers</h2>
+        <h2>Discover</h2>
         <ul>
             <li>FAQS</li>
-
             <li>Be a partnet</li>
             <li>Company Operation</li>
             <li>Privacy and Policy</li>

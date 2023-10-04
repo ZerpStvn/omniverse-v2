@@ -129,6 +129,10 @@ th {
 .higlightlist > li:hover {
   background-color: var(--omni-yellow);
 }
+.offer9 > section > p {
+  font-size: 30px;
+  font-weight: bold;
+}
 @media (max-width: 988px) {
   .higlightlist {
     grid-template-columns: 1fr 1fr;

@@ -25,6 +25,7 @@
                     <li><a href="<?php echo get_home_url() . "/about" ?>">Who We Are</a></li>
                     <li><a href="<?php echo get_home_url() . "/offer" ?>">What we offer</a></li>
                     <li><a href="<?php echo get_home_url() . "/blogs" ?>">Updates</a></li>
+                    <li><a href="<?php echo get_home_url() . "/faqspage" ?>">FAQs</a></li>
                     <li><a href="<?php echo get_home_url() . "/contact" ?>">Contact</a></li>
 
                 </ul>

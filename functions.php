@@ -26,6 +26,7 @@ function add_theme()
     wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css');
     wp_enqueue_style('message_css', OMNI_CSS . '/message.css');
     wp_enqueue_style('offer_css', OMNI_CSS . '/offer.css');
+    wp_enqueue_style('faqs_css', OMNI_CSS . '/faqs.css');
 
 
     // scripts
@@ -101,6 +102,14 @@ function add_pages()
             'post_type' => 'page',
             'post_name' => 'thank-you'
         ),
+        array(
+            'post_title' => 'Faqs',
+            'post_content' => 'Faqs',
+            'post_status' => 'publish',
+            'post_author' => 1,
+            'post_type' => 'page',
+            'post_name' => 'faqspage'
+        ),
 
 
     );
@@ -132,3 +141,4 @@ add_filter('excerpt_length', 'custom_excerpt_length');
 add_theme_support('post-thumbnails');
 
 include_once OMNI_INC . "/custom_post/content.php";
+include_once OMNI_INC . "/custom_post/faqs.php";
