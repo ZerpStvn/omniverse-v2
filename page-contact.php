@@ -39,7 +39,7 @@
                     <ul>
                         <li>
                             <p><span><img src="<?php echo OMNI_IMG . "/ico_mail.svg" ?>" alt="Omniverse Email"></span>
-                                ceo@omniverse.com.ph</p>
+                                info@omniverse.com.ph</p>
                         </li>
 
                         <li>
@@ -59,17 +59,17 @@
                     <h2>Follow us </h2>
                     <ul>
                         <li>
-                            <a href=""><i class="fa fa-facebook"></i> Omnivers.com.ph/facebook</a>
+                            <a href=""><i class="fa fa-facebook"></i> omniverse.com.ph/facebook</a>
 
 
 
                         </li>
 
                         <li>
-                            <a href=""><i class="fa fa-linkedin"></i> Omnivers.com.ph/instagram</a>
+                            <a href=""><i class="fa fa-instagram"></i> omniverse.com.ph/instagram</a>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-instagram"></i> Omnivers.com.ph/linkedin</a>
+                            <a href=""><i class="fa fa-linkedin"></i> omniverse.com.ph/linkedin</a>
                         </li>
 
                     </ul>

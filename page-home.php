@@ -35,25 +35,24 @@
     <section id="section1" class="section1">
         <h2><img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt=""></h2>
         <div class="section-details-wrap">
-            <div data-aos="fade-right" class="section-deatils-container">
-                <div data-aos="fade-right" class="section1-details ">
+            <div class="section-deatils-container">
+                <div class="section1-details ">
                     <p>Powers you everywhere, all the Time!</p>
                     <!-- <p>Power your business with renewable energy.</p> -->
                     <a id="main-button" href="<?php echo get_home_url() . "/about" ?>"> Learn More <i></i></a>
                 </div>
-                <div data-aos="fade-left" data-aos="fade-left" class="section1-vid">
-                    <video width="500" height="315" autoplay muted controls>
-                        <source src="<?php echo get_template_directory_uri() . "/assets/img/videosample.mp4" ?>"
-                            type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="section1-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HNoRRO15pgc?si=8lfNhWiEe1UYFVQB"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
 
     </section>
     <div id="section2" class="section2">
-        <section data-aos="fade-right">
+        <section>
             <h2>Electromagnetic Energy-flux Reactor Stationary Power Generator (EER SPG)</h2>
             <p> Electromagnetic Energy-flux Reactor Stationary Power Generator (EER SPG) is a pioneering technology that
                 harnesses energy from ambient sources, transforming it into a reliable power supply for commercial and
@@ -62,12 +61,11 @@
             </p>
             <a id="main-button" href=""> Learn More <i></i></a>
         </section>
-        <div data-aos="fade-left" class="section2-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy"
-                alt="">
+        <div class="section2-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="">
         </div>
     </div>
     <div id="section3" class="section3">
-        <section data-aos="fade-left">
+        <section>
             <h2>The Electromagnetic Energy-Flux Reactor</h2>
             <p>The main principle underpinning the Electromagnetic Energy-Flux Reactor’s (EER) operation is Faraday’s
                 Law of Induction which stipulates “that when a coil is or coils of wire are exposed to varying magnetic
@@ -76,8 +74,7 @@
                 reactors assembly...</p>
             <a id="main-button" href=""> Learn More <i></i></a>
         </section>
-        <div data-aos="fade-right" class="section3-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy"
-                alt="">
+        <div class="section3-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="">
         </div>
     </div>
     <div class="pantentsection">
@@ -87,165 +84,165 @@
             </h2>
             <ul class="flagspatent">
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/bhr.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bhr.svg" ?>" loading="lazy" alt=""></span>
                         Bahrain</p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/bwa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bwa.svg" ?>" loading="lazy" alt=""></span>
                         Botswana</p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/swz.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/swz.svg" ?>" loading="lazy" alt=""></span>
                         Eswatini (Swaziland)
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/eun.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/eun.svg" ?>" loading="lazy" alt=""></span>
                         European Union
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/gmb.svg" ?>" loading="lazy" alt=""></span> Gambia
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gmb.svg" ?>" loading="lazy" alt=""></span> Gambia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/gha.svg" ?>" loading="lazy" alt=""></span> Ghana
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gha.svg" ?>" loading="lazy" alt=""></span> Ghana
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/hkg.svg" ?>" loading="lazy" alt=""></span> Hong
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/hkg.svg" ?>" loading="lazy" alt=""></span> Hong
                         Kong
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/ind.svg" ?>" loading="lazy" alt=""></span> India
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ind.svg" ?>" loading="lazy" alt=""></span> India
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/idn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/idn.svg" ?>" loading="lazy" alt=""></span>
                         Indonesia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/jpn.svg" ?>" loading="lazy" alt=""></span> Japan
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/jpn.svg" ?>" loading="lazy" alt=""></span> Japan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/ken.svg" ?>" loading="lazy" alt=""></span> Kenya
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ken.svg" ?>" loading="lazy" alt=""></span> Kenya
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/kwt.svg" ?>" loading="lazy" alt=""></span> Kuwait
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kwt.svg" ?>" loading="lazy" alt=""></span> Kuwait
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/lso.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lso.svg" ?>" loading="lazy" alt=""></span>
                         Lesotho
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/lbr.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lbr.svg" ?>" loading="lazy" alt=""></span>
                         Liberia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/mys.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mys.svg" ?>" loading="lazy" alt=""></span>
                         Malaysia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/mwi.svg" ?>" loading="lazy" alt=""></span> Malawi
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mwi.svg" ?>" loading="lazy" alt=""></span> Malawi
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/moz.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/moz.svg" ?>" loading="lazy" alt=""></span>
                         Mozambique
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/nam.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/nam.svg" ?>" loading="lazy" alt=""></span>
                         Namibia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/omn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/omn.svg" ?>" loading="lazy" alt=""></span>
                         Oman
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/qat.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/qat.svg" ?>" loading="lazy" alt=""></span>
                         Qatar
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/rwa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/rwa.svg" ?>" loading="lazy" alt=""></span>
                         Rwanda
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/stp.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/stp.svg" ?>" loading="lazy" alt=""></span>
                         Sao Tome and Principe
 
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/sle.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sle.svg" ?>" loading="lazy" alt=""></span>
                         Sierra Leone
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/sgp.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sgp.svg" ?>" loading="lazy" alt=""></span>
                         Singapore
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/som.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/som.svg" ?>" loading="lazy" alt=""></span>
                         Somalia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/kor.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kor.svg" ?>" loading="lazy" alt=""></span>
                         South Korea
 
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/sdn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sdn.svg" ?>" loading="lazy" alt=""></span>
                         Sudan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/twn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/twn.svg" ?>" loading="lazy" alt=""></span>
                         Taiwan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/uga.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/uga.svg" ?>" loading="lazy" alt=""></span>
                         Uganda
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/are.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/are.svg" ?>" loading="lazy" alt=""></span>
                         United Arab Emirates
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/tza.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/tza.svg" ?>" loading="lazy" alt=""></span>
                         United Republic of Tanzania
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/usa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/usa.svg" ?>" loading="lazy" alt=""></span>
                         United States of America
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/zmb.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zmb.svg" ?>" loading="lazy" alt=""></span>
                         Zambia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/1x1/zwe.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zwe.svg" ?>" loading="lazy" alt=""></span>
                         Zimbabwe
                     </p>
                 </li>
@@ -255,6 +252,41 @@
             </ul>
 
         </section>
+    </div>
+    <div class="techfeature">
+        <div class="framer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pq8ouKgTagU?si=jB5wvy79ZpmNhn2A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <section>
+                <h2>Main Features</h2>
+                <p>The EER-SPG device, as designed, has the following features which distinguishes itself from existing
+                    renewable and conventional sources of power and energy</p>
+            </section>
+        </div>
+        <div class="features">
+            <ul>
+                <li>Produces electricity on demand-without availability constraints associated with hydro, wind and
+                    solar power and other renewable energy supply</li>
+                <li>Seamless on-grid off-grid operation - power generation can be switched from isolated loads to
+                    utility network load instantaneously without the need for shutdown</li>
+                <li>Quick start-up and shutdown - less than 60 second depending converter controls and load or network
+                    conditions</li>
+                <li>Black start-up capability - through local power supply, UPS, battery bank, small wind or solar power
+                    installation</li>
+                <li>Compensated parasitic load - the gross output is design to compensate, supply and offset the
+                    internal losses of the device</li>
+                <li>No inherent pollution - no green gas emission whatsoever</li>
+                <li>Compact and portable - footprint is < 10 m2 and a height of 2.6 m</li>
+                <li>Rapid mobilization - can be packaged to fit a 20-foot container to facilitate shipment and
+                    installation.</li>
+                <li>No special conditions for location, installation and operation, have no site-specific environmental
+                    constraints</li>
+                <li>Scalable to larger capacity, ability to operate in parallel with multiple units in parallel and
+                    controlled individually or as a group</li>
+            </ul>
+        </div>
     </div>
     <div class="infosectionn">
         <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
@@ -266,17 +298,21 @@
                 <div id="dot4"></div>
             </div>
             <div class="timelineinfo">
-                <p>Environmental Impact: The team is dedicated to reducing carbon emissions and minimizing the
+                <p data-aos-duration="1000">Environmental Impact: The team is dedicated to reducing
+                    carbon emissions and minimizing the
                     environmental footprint through the promotion of renewable energy sources and energy-efficient
                     technologies.</p>
-                <p>Economic Growth: Their efforts are geared towards stimulating economic growth at various levels.
+                <p data-aos-duration="2000">Economic Growth: Their efforts are geared towards
+                    stimulating economic growth at various levels.
                     By supporting family businesses and small to medium enterprises in adopting sustainable
                     practices, they aim to create a more resilient and prosperous economy.</p>
-                <p>National Transformation: Omniverse Energy Management Inc. sees itself as a catalyst for broader
+                <p data-aos-duration="3000">National Transformation: Omniverse Energy Management
+                    Inc. sees itself as a catalyst for broader
                     national transformation. Their work not only contributes to individual businesses' success but
                     also aligns with the country's broader goals of energy security, sustainability, and economic
                     development.</p>
-                <p>In essence, Omniverse Energy Management Inc.'s team history is a testament to the power of
+                <p data-aos-duration="4000">In essence, Omniverse Energy Management Inc.'s team
+                    history is a testament to the power of
                     collaboration, innovation, and unwavering commitment to a sustainable and prosperous future. Their
                     journey began with a vision of clean and green energy, and it continues to shape the nation's energy
                     landscape, contributing to economic growth and environmental responsibility.
@@ -284,6 +320,7 @@
             </div>
         </div>
     </div>
+
     <div data-aos="fade-right" id="section4" class="section4">
         <section>
             <h2>Omniverse Updates</h2>

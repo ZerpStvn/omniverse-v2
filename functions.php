@@ -25,6 +25,7 @@ function add_theme()
     wp_enqueue_style('root_css', OMNI_CSS . '/root.css');
     wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css');
     wp_enqueue_style('message_css', OMNI_CSS . '/message.css');
+    wp_enqueue_style('offer_css', OMNI_CSS . '/offer.css');
 
 
     // scripts
