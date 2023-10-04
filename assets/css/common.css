@@ -291,6 +291,12 @@ body {
   border: 1px solid white;
 }
 /* feeture section */
+.feature-home {
+  background-color: var(--main-color);
+}
+.feature-home .framer > section > p {
+  color: white;
+}
 .techfeature {
   display: flex;
   padding: 112px 20px;
@@ -321,8 +327,7 @@ body {
 .features > ul > li {
   background-color: aliceblue;
   padding: 20px;
-
-  border-radius: 10px;
+  border-radius: 2px;
 }
 /* section4 */
 .section4 {

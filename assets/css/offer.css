@@ -2,6 +2,7 @@
   width: 100%;
   padding: 112px 20px;
 }
+.offer9 > section > h2,
 .offer8 > section > h2,
 .offer7 > section > h2,
 .offer6 > section > h2,
@@ -12,7 +13,7 @@
   padding-bottom: 20px;
   border-bottom: 2px solid var(--omni-yellow);
 }
-
+.offer9 > section > p:nth-child(2),
 .offer5 > section > p:nth-child(2),
 .offer4 > section > p:nth-child(2),
 .offer3 > section > p:nth-child(2),
@@ -39,6 +40,7 @@
   color: white;
   padding: 112px 20px;
 }
+.offer9,
 .offer8,
 .offer7,
 .offer6,
@@ -56,22 +58,20 @@
   border-collapse: collapse;
   width: 100%;
 }
-.table-content7 > table {
+table {
   border-collapse: collapse;
   width: 100%;
 }
-.table-content7 > table td,
-th {
-  text-align: center;
-  border: 1px solid white;
-  padding: 10px;
-}
-.offer5 > section > table td,
-th,
-.offer4 > section > table td,
+table td,
 th {
   text-align: center;
   border: 1px solid black;
+  padding: 10px;
+}
+.offer5 > section > table td,
+.offer5 > section > table th {
+  text-align: center;
+  border: 1px solid white;
   padding: 10px;
 }
 .graph-arictle {
@@ -91,4 +91,68 @@ th {
 }
 .offer7 > section > .table-content7 > h3 {
   padding-bottom: 20px;
+}
+.offer8 .offer8center {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+.offer8center > img {
+  width: 38%;
+  height: 333px;
+  object-fit: cover;
+}
+.higlightlist {
+  background-color: aliceblue;
+  list-style: none;
+  padding: 30px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.higlightlist > li {
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  background-color: white;
+}
+.higlightlist > li:hover {
+  background-color: var(--omni-yellow);
+}
+@media (max-width: 988px) {
+  .higlightlist {
+    grid-template-columns: 1fr 1fr;
+  }
+  .offer8center > img {
+    width: 54%;
+    height: 312px;
+  }
+}
+@media (max-width: 788px) {
+  .higlightlist {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 788px) {
+  .offer8center > img {
+    width: 77%;
+    height: 182px;
+  }
+  .about1 > section > h2 {
+    font-size: 40px;
+  }
+  .about1 > section > p {
+    font-size: 14px;
+  }
 }

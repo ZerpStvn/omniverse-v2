@@ -736,7 +736,46 @@
     <div class="offer8">
         <section>
             <h2>Rendering</h2>
+
         </section>
+        <div class="offer8center">
+            <img src="<?php echo OMNI_IMG . "/sinag eer.jpg" ?>" alt="">
+            <p>The stationary power generation application of the EER technology is made available in 1MW commercial
+                units as depicted in Figure 1 above. Each unit measures no more than 10 m2, housing the system’s unique
+                multiple reactor technology along with its custom-designed inverter and cooling system.
+            </p>
+            <img src="<?php echo OMNI_IMG . "/singal-eer.jpg" ?>" alt="">
+            <p>TThe EER stationary power generation system has been designed to house components in draw out modules to
+                enable operations and maintenance to be conducted with minimal to no disruptions. It has been designed
+                to allow maintenance to be conducted while EER units are still in operation, without requiring power
+                shutdown.
+            </p>
+        </div>
+    </div>
+    <div class="offer9">
+        <section>
+            <h2>Lest Power the Future Together</h2>
+            <p>Highlights</p>
+        </section>
+        <ul class="higlightlist">
+            <li>A product of over 20 years of research and development, the EER system is currently the most efficient
+                renewable energy technology in the market, with an expected 96% capacity factor coupled with transparent
+                O&M costs.</li>
+            <li>The technology has already been granted patents from key countries such as the US (#9,444,264 B2), EU,
+                ARIPO (#AP4359), GCC, Japan (#6297143), South Korea, Taiwan, and Malaysia.</li>
+            <li>Our technology has been confirmed as capable of generating safe and stable power by the Philippines’
+                National Power Corporation, and endorsed as an 'emerging' renewable energy technology by the
+                Philippine’s Department of Energy</li>
+            <li>EER units use any energy source, only for system start up and re-starts, thus granting our operations
+                relative independence from feedstock inputs, creating significant cost advantages.
+            </li>
+            <li>
+                The EER power generation system stands apart from conventional power generation not just because of its
+                significant cost advantages, but because of its unique modular unit design which allows for scalability,
+                its exceptional ability to harness ambient energy allowing for 24/7 operations regardless of location or
+                environmental conditions, and its freedom from harmful emissions, wastes or pollutants.
+            </li>
+        </ul>
     </div>
 </main>
 <?php echo get_footer(); ?>

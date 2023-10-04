@@ -253,7 +253,7 @@
 
         </section>
     </div>
-    <div class="techfeature">
+    <div class="techfeature feature-home">
         <div class="framer">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/pq8ouKgTagU?si=jB5wvy79ZpmNhn2A"
                 title="YouTube video player" frameborder="0"
@@ -287,6 +287,31 @@
                     controlled individually or as a group</li>
             </ul>
         </div>
+    </div>
+    <div class="offer9">
+        <section>
+            <h2>Lest Power the Future Together</h2>
+            <p>Highlights</p>
+        </section>
+        <ul class="higlightlist">
+            <li>A product of over 20 years of research and development, the EER system is currently the most efficient
+                renewable energy technology in the market, with an expected 96% capacity factor coupled with transparent
+                O&M costs.</li>
+            <li>The technology has already been granted patents from key countries such as the US (#9,444,264 B2), EU,
+                ARIPO (#AP4359), GCC, Japan (#6297143), South Korea, Taiwan, and Malaysia.</li>
+            <li>Our technology has been confirmed as capable of generating safe and stable power by the Philippines’
+                National Power Corporation, and endorsed as an 'emerging' renewable energy technology by the
+                Philippine’s Department of Energy</li>
+            <li>EER units use any energy source, only for system start up and re-starts, thus granting our operations
+                relative independence from feedstock inputs, creating significant cost advantages.
+            </li>
+            <li>
+                The EER power generation system stands apart from conventional power generation not just because of its
+                significant cost advantages, but because of its unique modular unit design which allows for scalability,
+                its exceptional ability to harness ambient energy allowing for 24/7 operations regardless of location or
+                environmental conditions, and its freedom from harmful emissions, wastes or pollutants.
+            </li>
+        </ul>
     </div>
     <div class="infosectionn">
         <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
