@@ -102,6 +102,170 @@
                 </tr>
 
             </table>
+            <div class="graph-arictle">
+                <p>With the prime mover of a conventional generator rotating the main and exciter rotor located at the
+                    same
+                    shaft at rated speed, voltage is induced on a brushless exciter rotor due to the residual magnetism
+                    in
+                    the exciter assembly. This voltage on the rotor is rectified by a rectifier to a direct current
+                    voltage.
+                    The DC voltage will be utilized by the main rotor for excitation, thus producing a set of north and
+                    south electromagnetic poles on the main rotor.</p>
+                <p>The main rotors of the alternator are arranged in such a way that they are alternating each other as
+                    north and south poles. When pairs of rotor poles are rotated by the prime mover, a varying magnetic
+                    field force is induced on the main stator (due to its arrangement of alternating poles per phase of
+                    north and south poles) generating an electromotive force (emf), formerly referred to as potential
+                    difference and presently commonly known as voltage measured between the conductor terminal lead
+                    wires of
+                    the stator of an AC generator. Once a load or load banks are connected to the terminal leads of the
+                    stator winding, a current will flow on this specific connected load. This current produces a
+                    magnetic
+                    field that interact both on rotor and stator, generating alternating forces of attraction and
+                    repulsion
+                    between them.</p>
+                <p>This set up of conventional power generation (alternator coupled to a prime mover) precludes the size
+                    of
+                    the prime mover to be smaller than the alternator power, since it is consistently required to
+                    overcome
+                    the forces of reaction caused by the magnetic forces on the alternator by a given load. Upon closer
+                    analysis of the interactions involved, however, we begin to understand that the source of the
+                    varying
+                    magnetic fields on the stator does not lie with the prime mover alone, but actually with the
+                    excitation
+                    source that produces the electromagnetism on the main rotor assembly. Electromagnetism is one of the
+                    four fundamental forces of nature given to us by our Beloved Creator since the time of the Creation.
+                </p>
+                <p>Simply put, without the excitation source, there will be no varying magnetic fields on the stator –
+                    even
+                    if it is rotated by the prime mover - and consequently, no emf or voltage output between the stator
+                    terminal lead wires. This demonstrates that the prime mover operates merely as part of the whole
+                    process
+                    enabling the DC excited main rotor to induce varying magnetic fields on the stator.
+
+                    The excitation power of the exciter assembly is the main source of electromagnetism, producing
+                    varying
+                    magnetic fields on the stator assembly through the rotation of the main rotor by means of the prime
+                    mover. </p>
+                <p>Hence, in conventional generators, the prime mover does not accomplish the job of power generation by
+                    itself but is, in fact, a catalyst or a mechanism to deliver a varying forces of magnetism to the
+                    stator assembly by the power of electromagnetism on the rotor assembly.
+                </p>
+                <p>Electricity is not a product only of mechanical rotation but the results of the varying forces of
+                    electromagnetism induced by the rotating electromagnets on the rotor assembly. This process can be
+                    easily explained by returning to the current definition of electricity as ‘the movement of electrons
+                    along a conductive material through pathway of electrical resistance or impedance.’ This very
+                    definition already suggests that the source of electricity even in conventional generators is
+                    primarily the electrons abundant in space or in the environment around us held by the different
+                    gases in our surrounding atmosphere and not through the conversion of mechanical energy to
+                    electrical energy. In the case of conventional power generation, the prime mover acts with the aid
+                    of electromagnetism to harness, harvest, extract or pump these very electrons from the environment.
+                    As such, we may even refer to the conventional generator in the real sense as an “electron pump”,
+                    much like a water pump or air compressor operates through a prime mover, mechanical or manual
+                    action.
+                </p>
+                <p>
+                    Measuring the magnitude of the excitation power source against the output of the stator in the
+                    conventional generator yields a significant ratio. Calculating ratio by dividing the main stator
+                    output by the excitation power yields the coefficient of performance (COP). COP in conventional
+                    generator may have a higher ratio if we consider the power generated in the stator versus the power
+                    required by the rotor for its excitation requirements.
+
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="offer5">
+        <section>
+            <h2>
+                EER Power Generation Principle of Operation
+            </h2>
+            <table>
+                <tr>
+                    <th>COMPONENT</th>
+                    <th>PURPOSE</th>
+                </tr>
+                <tr>
+                    <td>Main Reactor
+                    </td>
+                    <td>Where the varying magnetic fields are being induced and manipulated</td>
+                </tr>
+                <tr>
+                    <td>Reactive Reactor</td>
+                    <td>Where a bucking magnetic field is being produced</td>
+                </tr>
+                <tr>
+                    <td>Compensating Reactor</td>
+                    <td>Where a boosting magnetic field is being produced</td>
+                </tr>
+                <tr>
+                    <td>Resonating Reactor</td>
+                    <td>Responsible for tuning the main reactor with the given load</td>
+                </tr>
+
+
+            </table>
+            <div class="graph-arictle">
+                <p>The above-mentioned components work as a whole system to produce an expanding and contracting
+                    magnetic field on the main reactors by means of electromagnetic feedback induction phenomena. They
+                    are connected in such a way that allows for the simulation of a conventional generator’s generation
+                    of varying magnetic fields on the stator. In the case of EER, however, this is accomplished on the
+                    main reactor without the use of a prime mover and, instead, with electromagnetic field-induced
+                    feedback. The varying magnetic fields in the main reactors are being manipulated by the use of the
+                    three other aforementioned reactors. With a current flowing on the windings of each reactor, a
+                    magnetic field is produced and an electromagnetic field-induced feedback can be manipulated to
+                    expand and contract the magnetic field in the main reactor in resonance with the connected load.
+                </p>
+                <p>During the initial stage, an external AC or pulse current is needed to produce electromagnetism in
+                    the main reactor assembly that serves as the initial excitation. This electromagnetism on the main
+                    reactors, with the induced electromagnetic feedback reaction of the three other reactors, generates
+                    the desired varying magnetic fields or forces on the main reactors. The phenomena manifests when a
+                    current is present on each reactor assembly, thus producing each their respective magnetic fields or
+                    forces in conjunction with the connected load at the output of the main inverter.
+                </p>
+                <p>Once the unit has started and a load or load banks are connected to the output via a smart seamless
+                    on-off-on grid inverter, high-intensity magnetic fields are produced within the reactor assemblies
+                    directly proportional to the load current. These magnetic fields or forces being produced by the
+                    load currents on each of the three reactors produce the desired effects of varying magnetic fields
+                    on the main reactor through active manipulation. By means of active manipulation of the respective
+                    magnetic fields or forces of the three-reactor system, the induced varying magnetic fields in the
+                    main reactors can be increased or decreased in resonance with the given load. This process is
+                    attained by manipulating the respective magnetic fields of each of the three individual reactors to
+                    induct a positive electromagnetic magnetic force (emf) on the main reactors.
+                </p>
+                <p>Since the system has no revolving parts and the forces of reaction by the magnetic fields of the back
+                    emf which prove detrimental to the conventional generator, preventing it from generating a COP > 1 –
+                    are instead being used by the three-reactor system of the EER to generate an intensified varying
+                    magnetic fields on the main reactor, (cancelling the effect of back emf induced by the connected
+                    load) and inducing instead a positive feedback emf necessary to regenerate power to power up the
+                    connected load. This process of regeneration is attained by the intensified varying forces of
+                    electromagnetism knocking lose the electrons from the shell of the atoms held by surrounding gases
+                    in the immediate surrounding atmosphere causing a chain-reaction among atoms. The electrons knock
+                    out from the shell of the atoms in the surrounding environment or space become “free electrons”
+                    freely harvested and harnessed by forces of electromagnetism in the EER-SPG to generate electricity
+                    making it possible to have the COP of the system to exceed one (1). As per actual testing by the
+                    National Power Corporation of the Philippines (NPC) in 2017, even achieve a measured value of 3.15.
+                    The system is currently designed with a loop back inverter, sourcing the excitation from the main
+                    output of the system to enable the system to be self- sustaining after just an initial round of
+                    excitation. As an example, with the measurement of NPC having the loop back excitation after start
+                    up, the net output of the system will be more than 200%.3
+                </p>
+                <p>
+
+                    The initial source of excitation can be turned off or diverted to the main output (after the EER
+                    system generates the initial output with the load or group of loads connected) through
+                    synchronization, augmenting the capacity of the main output of the EER, as in the case of a
+                    renewable energy source. If the initial excitation is being handled by a battery bank through an
+                    inverter, the same battery bank will be disconnected once the EER is running and generating the
+                    desired output capacity. The battery bank will then be charged by the automatic charging system
+                    built into the EER system, maintaining necessary charges for future black-starting in the event of
+                    the system tripping or in compliance with the EER’s regular maintenance schedule. As such, the EER
+                    system is ideal as a distributed power generating units with grid black-starting capability and as
+                    an embedded power generating units. Recent design upgrades of the EER-SPG yields higher COP and
+                    better performance.
+
+
+                </p>
+            </div>
         </section>
     </div>
     <div class="techfeature">
@@ -139,6 +303,440 @@
             </ul>
         </div>
     </div>
+    <div class="offer6">
+        <section>
+            <h2>Electrical Performance Specification</h2>
+            <p>Introduction</p>
+            <p>For the purposes of defining the performance specifications of the EER (Electromagnetic Energy Flux
+                Reactor) System and its major electrical components, refer to the simplified block diagram in Figure 1.
+            </p>
+            <img src="<?php echo OMNI_IMG . "/eps.png" ?>" alt="">
+            <div class="graph-arictle">
+                <p>
+                    The term EER system (or “System”) is used to refer to the EER (or “Reactors”) and its accessories
+                    that will allow the said Reactors to connect to the grid or local loads and generate electrical
+                    power and energy.
 
+                </p>
+                <p>
+                    The EER System is composed of three major electrical components which performs the following
+                    functions:
+                </p>
+                <p>
+                    1. Interface Bus – switching mechanism for the connection and disconnection of the System to the
+                    grid
+                    or local loads for the purpose of transferring power and energy.</p>
+                <p>
+                    2. Input Converter – composed of a back-to-back active front rectifier and inverter, feeding
+                    excitation
+                    power to the Reactors while initially extracting power from the grid or any of the following
+                    external sources like a battery bank, ultra-capacitor, solar farms and wind farms for the initial
+                    source of excitation and finally from the Output Converter of the EER SPG unit for its source of
+                    continuous excitation throughout the operation. The AC-DC-AC conversion allows correction of voltage
+                    deviations, power factor, phase imbalances and harmonic distortions at the Reactor input so that the
+                    power and current drawn by the excitation of EER System from an initial source like a built in
+                    battery, ultra-capacitor bank and solar panels are minimized and stay within acceptable power
+                    quality standards.
+                </p>
+                <p>
+                    3. Output Converter – composed of a back-to-back active front rectifier and inverter receiving
+                    output
+                    power (voltage and current) from the Reactor. The AC-DC-AC conversion enable the control of the EER
+                    System output power to serve the demands of the grid or local load with correct quantity and
+                    quality. Switching operation at the Interface Bus is also controlled by the Output Converter.
+
+
+                </p>
+            </div>
+        </section>
+
+    </div>
+    <div class="offer7">
+        <section>
+            <h2>Techincal Data</h2>
+            <section class="table-content7">
+                <h3>MAIN OUTPUT SPECIFICATIONS</h3>
+                <table>
+
+                    <tr>
+                        <td>
+                            EER-SPG Generator Net Output Capacity
+                        </td>
+                        <td>
+                            500/1000 KWP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Output Voltage
+                        </td>
+                        <td>
+                            400/416 VOLTS @ 50HZ, 460/480 VOLTS @ 60HZ at -/+ 1%
+                            regulation of nominal
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Frequency Range
+                        </td>
+                        <td>
+                            50/60 HZ @ -/+ 0.01 regulation
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Rated Nominal Current
+                        </td>
+                        <td>
+                            1000/2000 AMPS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Max Short Circuit Current
+                        </td>
+                        <td>
+                            1500/3000 AMPS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phase
+                        </td>
+                        <td>
+                            3 PHASE, 3 WIRE / 3 PHASE, 4 WIRE
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="table-content7">
+                <h3>EXCITER SPECIFICATIONS</h3>
+                <table>
+
+                    <tr>
+                        <td>
+                            Loop Back Inverter
+                        </td>
+                        <td>
+                            SEAMLESS ON/OFF SMART INVERTER WITH ACTIVE FRONT
+                            RECTIFIER
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Output Power
+
+                        </td>
+                        <td>
+                            60/120 KWP
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Output Voltage Range
+                        </td>
+                        <td>
+                            400 TO 520 VOLTS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Frequency
+                        </td>
+                        <td>
+                            50/60 HZ @ -/+ 0.01 regulation
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phase
+                        </td>
+                        <td>
+                            3 PHASE, 3 WIRE
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Battery Bank (Optional)
+                        </td>
+                        <td>
+                            60 KWH / 120 KWH
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section class="table-content7">
+                <h3>MAIN INVERTER SPECIFICATIONS WITH ACTIVE FRONT RECTIFIER</h3>
+                <table>
+
+                    <tr>
+                        <td>
+                            Inverter Rated Capacity
+                        </td>
+                        <td>
+                            600/1200 KWP
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Input Voltage
+
+                        </td>
+                        <td>
+                            460/540 VOLTS AC
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Output Voltage
+                        </td>
+                        <td>
+                            400/416 VOLTS @ 50HZ, 460/480 VOLTS @ 60HZ at -/+ 1%
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Rated Nominal Current
+                        </td>
+                        <td>
+                            1250/2500 AMPS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Frequency Range
+                        </td>
+                        <td>
+                            50/60 HZ @ -/+ 0.01 regulation
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            PWM Frequency
+                        </td>
+                        <td>
+                            3%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Max THD Current
+                        </td>
+                        <td>
+
+                            5%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            DC Over Voltage
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AC Input Over Voltage
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Over Temperature Heat Sink
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Over Temperature LC Filter
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AC Input Undervoltage
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AC Input Over Frequency
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AC Input Under Frequency
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            AC Input Overcurrent
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ambient Temperature Range
+                        </td>
+                        <td>
+                            0ºC TO 45ºC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Maximum Ambient Temperature Range
+                        </td>
+                        <td>
+                            50ºC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Relative Humidity, Not Condensing
+                        </td>
+                        <td>
+                            15 TO 95%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Maximum Altitude
+                        </td>
+                        <td>
+                            2000M
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Maximum Noise Level
+                        </td>
+                        <td>
+                            60 dbA
+                        </td>
+                    </tr>
+
+
+                </table>
+
+            </section>
+            <section class="table-content7">
+                <h3>EER-SPG</h3>
+                <table>
+
+                    <tr>
+                        <td>
+                            Input Excitation Voltage
+                        </td>
+                        <td>
+                            400 TO 480 VOLTS PROGRAMMABLE
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Rated Excitation Current
+
+                        </td>
+                        <td>
+                            150/300 AMPS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Min/Max Frequency Range
+                        </td>
+                        <td>
+                            50/60 HZ @ -/+ 0.01 regulation
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phase
+                        </td>
+                        <td>
+                            CLASS 200
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Maximum Temperature Rise
+                        </td>
+                        <td>
+                            150ºC
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cooling System
+                        </td>
+                        <td>
+                            WATER/GLYCOL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Reactor Type
+                        </td>
+                        <td>
+                            ELECTROMAGNETIC REACTOR, MULTIPLE CONFIGURATION
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            System Enclosure
+                        </td>
+                        <td>
+                            CUSTOMIZED CONTAINERIZED VAN
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Protection
+                        </td>
+                        <td>
+                            IP56
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total Weight
+                        </td>
+                        <td>
+                            6 tons (500 kW) / 9 tons (1 MW)
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </div>
+    <div class="offer8">
+        <section>
+            <h2>Rendering</h2>
+        </section>
+    </div>
 </main>
 <?php echo get_footer(); ?>

@@ -2,12 +2,18 @@
   width: 100%;
   padding: 112px 20px;
 }
+.offer8 > section > h2,
+.offer7 > section > h2,
+.offer6 > section > h2,
+.offer5 > section > h2,
 .offer4 > section > h2,
 .offer2 > section > h2 {
   color: var(--omni-yellow);
   padding-bottom: 20px;
   border-bottom: 2px solid var(--omni-yellow);
 }
+
+.offer5 > section > p:nth-child(2),
 .offer4 > section > p:nth-child(2),
 .offer3 > section > p:nth-child(2),
 .offer2 > section > p:nth-child(2) {
@@ -17,30 +23,72 @@
 .offer2 > section > p > span {
   font-weight: bold;
 }
+.offer5,
 .offer3 {
   width: 100%;
   background-color: var(--main-color);
 }
+.offer5 > section > h2,
 .offer3 > section > h2 {
   color: var(--omni-yellow);
   padding-bottom: 20px;
   border-bottom: 2px solid white;
 }
+.offer5 > section,
 .offer3 > section {
   color: white;
   padding: 112px 20px;
 }
+.offer8,
+.offer7,
+.offer6,
+.offer5,
 .offer4 {
   width: 100%;
   padding: 112px 20px;
 }
+.offer5 > section > table {
+  margin-top: 30px;
+}
+
+.offer5 > section > table,
 .offer4 > section > table {
   border-collapse: collapse;
   width: 100%;
 }
+.table-content7 > table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-content7 > table td,
+th {
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px;
+}
+.offer5 > section > table td,
+th,
 .offer4 > section > table td,
 th {
   text-align: center;
   border: 1px solid black;
   padding: 10px;
+}
+.graph-arictle {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.offer6 > section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.offer7 > section > .table-content7 {
+  margin-top: 40px;
+  text-align: center;
+}
+.offer7 > section > .table-content7 > h3 {
+  padding-bottom: 20px;
 }
