@@ -15,25 +15,25 @@ function add_theme()
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
     // styles
-    wp_enqueue_style('common_css', OMNI_CSS . '/common.css');
+    wp_enqueue_style('common_css', OMNI_CSS . '/common.css', NULL, 1.1);
     wp_enqueue_style('top_css', OMNI_CSS . '/top.css');
-    wp_enqueue_style('product_css', OMNI_CSS . '/product.css');
-    wp_enqueue_style('contact_css', OMNI_CSS . '/contact.css');
-    wp_enqueue_style('about_css', OMNI_CSS . '/about.css');
-    wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css');
-    wp_enqueue_style('fonts_css', OMNI_CSS . '/fonts.css');
-    wp_enqueue_style('root_css', OMNI_CSS . '/root.css');
-    wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css');
-    wp_enqueue_style('message_css', OMNI_CSS . '/message.css');
-    wp_enqueue_style('offer_css', OMNI_CSS . '/offer.css');
-    wp_enqueue_style('faqs_css', OMNI_CSS . '/faqs.css');
+    wp_enqueue_style('product_css', OMNI_CSS . '/product.css', NULL, 1.2);
+    wp_enqueue_style('contact_css', OMNI_CSS . '/contact.css', NULL, 1.3);
+    wp_enqueue_style('about_css', OMNI_CSS . '/about.css', NULL, 1.4);
+    wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css', NULL, 1.7);
+    wp_enqueue_style('fonts_css', OMNI_CSS . '/fonts.css', NULL, 1.5);
+    wp_enqueue_style('root_css', OMNI_CSS . '/root.css', NULL, 1.6);
+    wp_enqueue_style('blogs_css', OMNI_CSS . '/blogs.css', NULL, 1.8);
+    wp_enqueue_style('message_css', OMNI_CSS . '/message.css', NULL, 1.11);
+    wp_enqueue_style('offer_css', OMNI_CSS . '/offer.css', NULL, 1.9);
+    wp_enqueue_style('faqs_css', OMNI_CSS . '/faqs.css', NULL, 1.10);
 
 
     // scripts
-    wp_enqueue_script('aos_js', OMNI_JS . '/aos.js', NULL, 1.0, true);
-    wp_enqueue_script('jquery_js', OMNI_JS . '/jquery.js', NULL, 1.0, true);
-    wp_enqueue_script('common_js', OMNI_JS . '/common.js', NULL, array('jquery'), 1.0, true);
-    wp_enqueue_script('top_js', OMNI_JS . '/top.js', NULL, array('jquery'), 1.0, true);
+    wp_enqueue_script('aos_js', OMNI_JS . '/aos.js', NULL, 1.12, true);
+    wp_enqueue_script('jquery_js', OMNI_JS . '/jquery.js', NULL, 1.13, true);
+    wp_enqueue_script('common_js', OMNI_JS . '/common.js', NULL, 1.14, array('jquery'), true);
+    wp_enqueue_script('top_js', OMNI_JS . '/top.js', NULL, 1.15, array('jquery'), true);
 }
 
 add_action('init', 'add_pages');
