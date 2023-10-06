@@ -1,14 +1,14 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-    <a href="<?php echo get_home_url() ?>">
+    <a href="<?php echo get_home_url() . "/contact" ?>">
         <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>
         </section>
     </a>
 </div>
-<main class="about-main global-width">
-    <div class="navbar">
+<main class="about-main ">
+    <div class="navbar global-width">
         <section>
             <div class="header-menu">
                 <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
@@ -39,7 +39,7 @@
             <p>Omniverse Energy Management Inc.</p>
         </section>
     </div>
-    <div class="about2">
+    <div class="about2 global-width">
         <section>
             <h2>Omniverse Energy Management Inc</h2>
             <p>Founded in 2023, is a reputable company operating as an authorized sub-licensee of Gem Power Philippines,
@@ -52,19 +52,22 @@
         <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" alt="">
     </div>
 
-    <div class="about3">
-        <section>
-            <h2>Omniverse Energy Management, Inc</h2>
-            <p> is focused on delivering sustainable solutions fueled by Electromagnetic Energy-flux Reactor (EER)
-                Stationary Power Generation (SPG) System. This technology is globally patented under US Patent No.
-                9444264 with the endorsement of the esteemed inventor, Engr. Bonifacio Eyales. His company, Green Energy
-                Machine Investment Corp. (GEM), is licensed to grant sub-licenses to customers across private and
-                government sectors. Presently, we have the exclusive license from GEM Investment Corp. (GEM)</p>
-        </section>
-        <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" alt="">
+    <div class="about3_bg">
+        <div class="about3 global-width">
+            <section>
+                <h2>Omniverse Energy Management, Inc</h2>
+                <p> is focused on delivering sustainable solutions fueled by Electromagnetic Energy-flux Reactor (EER)
+                    Stationary Power Generation (SPG) System. This technology is globally patented under US Patent No.
+                    9444264 with the endorsement of the esteemed inventor, Engr. Bonifacio Eyales. His company, Green
+                    Energy
+                    Machine Investment Corp. (GEM), is licensed to grant sub-licenses to customers across private and
+                    government sectors. Presently, we have the exclusive license from GEM Investment Corp. (GEM)</p>
+            </section>
+            <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" alt="">
+        </div>
     </div>
 
-    <div class="col-miss">
+    <div class="col-miss global-width">
         <section class="vision">
             <h2>Vision Statement</h2>
             <p>The leading solution provider of innovative green energy resource , pioneering our nation's transition to
@@ -102,7 +105,7 @@
             </p>
         </section>
     </div>
-    <div class="col-background">
+    <div class="col-background global-width">
         <ul class="about-bg">
             <li>
                 <img src="<?php echo OMNI_IMG . "/lawyers.png" ?>" alt="">
@@ -137,7 +140,7 @@
             </li>
         </ul>
     </div>
-    <div class="col-about-bg2">
+    <div class="col-about-bg2 global-width">
         <section>
             <p>What unites these professionals is their unwavering commitment to social responsibility and
                 sustainability. They are passionate advocates for clean energy and believe in its potential to transform
@@ -146,7 +149,16 @@
 
         </section>
     </div>
-    <div class="about4">
+    <div class="npc global-width">
+        <img src="<?php echo OMNI_IMG . "/npc.jpg" ?>" alt="">
+        <section>
+            <h2>The National Power Corporation</h2>
+            <p>The National Power Corporation is a Philippine government-owned and controlled corporation that is
+                mandated to provide electricity to all rural areas of the Philippines by 2025, to manage water resources
+                for power generation, and to optimize the use of other power generating assets.</p>
+        </section>
+    </div>
+    <div class="about4 global-width">
         <section>
             <h2>Meet our Team</h2>
             <ul>
@@ -254,81 +266,83 @@
         </section>
     </div>
     <!-- articles -->
-    <div id="section4" class="section4 about-blog">
-        <section>
-            <h2>Omniverse Updates</h2>
-            <a id="morearticle" href="<?php echo get_home_url() . "/blogs" ?>">More Articles</a>
+    <div class="about-blog">
+        <div id="section4" class="section4 global-width">
+            <section>
+                <h2>Omniverse Updates</h2>
+                <a id="morearticle" href="<?php echo get_home_url() . "/blogs" ?>">More Articles</a>
 
-        </section>
-        <div class="article-section">
+            </section>
+            <div class="article-section">
 
-            <?php
-            $contentview = array('post_type' => 'content', 'posts_per_page' => 1);
-
-            $contentquery = new WP_Query($contentview);
-
-            if ($contentquery->have_posts()):
-                ?>
-                <section class="latestarticle">
-                    <?php while ($contentquery->have_posts()):
-                        $contentquery->the_post();
-                        ?>
-                        <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy" alt="Omniverse blog"></h2>
-                        <p>
-                            <?php echo get_the_date('F j, Y'); ?>
-                        </p>
-                        <p>
-                            <?php echo the_title(); ?>
-                        </p>
-                        <a id="buttonread" href="<?php echo get_home_url() . "/blogs" ?>">Read more</a>
-                        <?php
-                    endwhile;
-                    wp_reset_postdata();
-                    ?>
-                </section>
-            <?php endif; ?>
-            <div class="article2">
                 <?php
-                $contentview = array('post_type' => 'content', 'posts_per_page' => 6);
+                $contentview = array('post_type' => 'content', 'posts_per_page' => 1);
 
                 $contentquery = new WP_Query($contentview);
 
                 if ($contentquery->have_posts()):
                     ?>
-                    <ul class="listarticle">
+                    <section class="latestarticle">
                         <?php while ($contentquery->have_posts()):
                             $contentquery->the_post();
                             ?>
-                            <a style="text-decoration:none; cursor:pointer;" href="<?php echo get_permalink() ?>">
-                                <li>
-                                    <section>
-                                        <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy"
-                                                alt="Omniverse blog"></h2>
-
-                                        <p>
-                                            <span>
-                                                <?php echo get_the_date('F j, Y'); ?>
-                                            </span><br>
-                                            <?php echo the_title(); ?>
-                                        </p>
-
-                                    </section>
-
-                                </li>
-                            </a>
+                            <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy" alt="Omniverse blog"></h2>
+                            <p>
+                                <?php echo get_the_date('F j, Y'); ?>
+                            </p>
+                            <p>
+                                <?php echo the_title(); ?>
+                            </p>
+                            <a id="buttonread" href="<?php echo get_home_url() . "/blogs" ?>">Read more</a>
                             <?php
                         endwhile;
                         wp_reset_postdata();
                         ?>
-                        </section>
-                    <?php endif; ?>
-            </div>
-        </div>
-        <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">
-            More Article
-        </a>
-    </div>
+                    </section>
+                <?php endif; ?>
+                <div class="article2">
+                    <?php
+                    $contentview = array('post_type' => 'content', 'posts_per_page' => 6);
 
+                    $contentquery = new WP_Query($contentview);
+
+                    if ($contentquery->have_posts()):
+                        ?>
+                        <ul class="listarticle">
+                            <?php while ($contentquery->have_posts()):
+                                $contentquery->the_post();
+                                ?>
+                                <a style="text-decoration:none; cursor:pointer;" href="<?php echo get_permalink() ?>">
+                                    <li>
+                                        <section>
+                                            <h2><img src="<?php echo get_the_post_thumbnail_url(); ?>" loading="lazy"
+                                                    alt="Omniverse blog"></h2>
+
+                                            <p>
+                                                <span>
+                                                    <?php echo get_the_date('F j, Y'); ?>
+                                                </span><br>
+                                                <?php echo the_title(); ?>
+                                            </p>
+
+                                        </section>
+
+                                    </li>
+                                </a>
+                                <?php
+                            endwhile;
+                            wp_reset_postdata();
+                            ?>
+                            </section>
+                        <?php endif; ?>
+                </div>
+            </div>
+            <a id="main-button" href="<?php echo get_home_url() . "/blogs" ?>">
+                More Article
+            </a>
+        </div>
+
+    </div>
     <div class="section5">
 
         <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">

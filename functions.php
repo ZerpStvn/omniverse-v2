@@ -68,6 +68,15 @@ function add_pages()
             'post_name' => 'offer'
         ),
         array(
+            'post_title' => 'Privacy and Policy',
+            'post_content' => 'Privacy and Policy',
+            'post_excerpt' => '',
+            'post_status' => 'publish',
+            'post_author' => 1,
+            'post_type' => 'page',
+            'post_name' => 'privacy_policy'
+        ),
+        array(
             'post_title' => 'Blog',
             'post_content' => 'Blogs',
             'post_excerpt' => 'Explore our product Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)',
@@ -139,6 +148,51 @@ add_filter('excerpt_length', 'custom_excerpt_length');
 // }
 // add_filter('excerpt_more', 'remove_excerpt_more');
 add_theme_support('post-thumbnails');
+
+
+// secnding email
+add_action('admin_post_custom_form_submission', 'handle_custom_form_submission');
+add_action('admin_post_nopriv_custom_form_submission', 'handle_custom_form_submission');
+
+function handle_custom_form_submission()
+{
+    if (isset($_POST['custom_form_nonce_field']) && wp_verify_nonce($_POST['custom_form_nonce_field'], 'custom_form_nonce')) {
+        $username = sanitize_text_field($_POST['username']);
+        $email = sanitize_email($_POST['email']);
+        $number = sanitize_text_field($_POST['number']);
+        $phonenumber = sanitize_text_field($_POST['phonenumber']);
+        $company = sanitize_text_field($_POST['company']);
+        $inquiry = sanitize_text_field($_POST['inquiry']);
+        $industry = sanitize_text_field($_POST['industry']);
+        $message = esc_textarea($_POST['message']);
+
+        $subject = $inquiry;
+
+        $message_body = "Full Name: $username\n";
+        $message_body .= "Email: $email\n";
+        $message_body .= "Mobile Number: $number\n";
+        $message_body .= "Phone Number: $phonenumber\n";
+        $message_body .= "Company: $company\n";
+        $message_body .= "Inquiry Subject: $inquiry\n";
+        $message_body .= "Industry: $industry\n\n";
+        $message_body .= "Message:\n$message";
+
+        $headers = array('Content-Type: text/plain; charset=UTF-8');
+
+        $recipient_email = 'stevefelizardo4@gmail.com'; // Replace with your recipient's email address
+
+        $email_sent = wp_mail($recipient_email, $subject, $message_body, $headers);
+
+        if ($email_sent) {
+            wp_redirect(get_permalink(get_page_by_path('thank-you')));
+            exit;
+        } else {
+            wp_die('Email not sent. Please try again later.');
+        }
+    } else {
+        wp_die('Nonce verification failed. Please try again.');
+    }
+}
 
 include_once OMNI_INC . "/custom_post/content.php";
 include_once OMNI_INC . "/custom_post/faqs.php";

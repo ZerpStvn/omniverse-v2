@@ -24,6 +24,9 @@
 .offer2 > section > p > span {
   font-weight: bold;
 }
+.offer3 {
+  padding: 120px 20px;
+}
 .offer5,
 .offer3 {
   width: 100%;
@@ -38,7 +41,7 @@
 .offer5 > section,
 .offer3 > section {
   color: white;
-  padding: 112px 20px;
+  padding: 20px 20px;
 }
 .offer9,
 .offer8,

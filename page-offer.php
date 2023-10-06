@@ -1,14 +1,14 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-    <a href="<?php echo get_home_url() ?>">
+    <a href="<?php echo get_home_url() . "/contact" ?>">
         <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>
         </section>
     </a>
 </div>
-<main class="offer-main global-width">
-    <div class="navbar">
+<main class="offer-main ">
+    <div class="navbar global-width">
         <section>
             <div class="header-menu">
                 <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
@@ -32,7 +32,7 @@
             </nav>
         </section>
     </div>
-    <div class="about1 offer">
+    <div class="about1 offer ">
         <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
         <section>
             <h2>THE TECHNOLOGY</h2>
@@ -40,7 +40,7 @@
         </section>
     </div>
 
-    <div class="offer2">
+    <div class="offer2 global-width">
         <section>
             <h2>Guiding Principles</h2>
             <p>The main principle underpinning the Electromagnetic Energy-Flux Reactor’s (EER) operation is <span>
@@ -60,25 +60,33 @@
                 </span></p>
         </section>
     </div>
-    <div class="offer3">
-        <section>
-            <h2>Stationary Power Generation Application</h2>
-            <p>EER stationary power generation (EER-SPG) systems are scalable, portable, have minimal moving parts, do
-                not make use of fossil fuels as input and do not emit harmful wastes or emissions to the environment.
-                More significantly, EER can provide stable electricity supply on a 24/7 basis at a higher capacity
-                factor than current market alternatives and can easily operate in various locations due to its modular
-                configuration and small physical footprint of < 10 m2/MW. The EER has also been designed to be stackable
-                    vertically to maximize the usage of space. Large capacity output can be attained by having the units
-                    connected in parallel, capable of operating seamlessly On-Grid and Off-Grid. Shorter lead time to
-                    implement and operate, like for example from contract signing, a 300MW capacity output can be
-                    delivered and installed within six (6) months. </p>
-                    <p>To better understand how EER operates, it is worth revisiting the mechanisms behind the operation
-                        of conventional generators, which illustrate how both the latter and the EER produce the same
-                        varying magnetic fields to generate electricity in compliance with Faraday’s Law of Induction.
-                    </p>
-        </section>
+    <div class="offer3 bg">
+        <div class="offer3 global-width">
+            <section>
+                <h2>Stationary Power Generation Application</h2>
+                <p>EER stationary power generation (EER-SPG) systems are scalable, portable, have minimal moving parts,
+                    do
+                    not make use of fossil fuels as input and do not emit harmful wastes or emissions to the
+                    environment.
+                    More significantly, EER can provide stable electricity supply on a 24/7 basis at a higher capacity
+                    factor than current market alternatives and can easily operate in various locations due to its
+                    modular
+                    configuration and small physical footprint of < 10 m2/MW. The EER has also been designed to be
+                        stackable vertically to maximize the usage of space. Large capacity output can be attained by
+                        having the units connected in parallel, capable of operating seamlessly On-Grid and Off-Grid.
+                        Shorter lead time to implement and operate, like for example from contract signing, a 300MW
+                        capacity output can be delivered and installed within six (6) months. </p>
+                        <p>To better understand how EER operates, it is worth revisiting the mechanisms behind the
+                            operation
+                            of conventional generators, which illustrate how both the latter and the EER produce the
+                            same
+                            varying magnetic fields to generate electricity in compliance with Faraday’s Law of
+                            Induction.
+                        </p>
+            </section>
+        </div>
     </div>
-    <div class="offer4">
+    <div class="offer4 global-width">
         <section>
             <h2>Conventional Methods of Power Generation</h2>
             <p>A brief description of the parts of a conventional generator and how they deliver varying magnetic fields
@@ -175,101 +183,129 @@
             </div>
         </section>
     </div>
-    <div class="offer5">
-        <section>
-            <h2>
-                EER Power Generation Principle of Operation
-            </h2>
-            <table>
-                <tr>
-                    <th>COMPONENT</th>
-                    <th>PURPOSE</th>
-                </tr>
-                <tr>
-                    <td>Main Reactor
-                    </td>
-                    <td>Where the varying magnetic fields are being induced and manipulated</td>
-                </tr>
-                <tr>
-                    <td>Reactive Reactor</td>
-                    <td>Where a bucking magnetic field is being produced</td>
-                </tr>
-                <tr>
-                    <td>Compensating Reactor</td>
-                    <td>Where a boosting magnetic field is being produced</td>
-                </tr>
-                <tr>
-                    <td>Resonating Reactor</td>
-                    <td>Responsible for tuning the main reactor with the given load</td>
-                </tr>
+    <div class="offer5 bg">
+        <div class="offer5 global-width">
+            <section>
+                <h2>
+                    EER Power Generation Principle of Operation
+                </h2>
+                <table>
+                    <tr>
+                        <th>COMPONENT</th>
+                        <th>PURPOSE</th>
+                    </tr>
+                    <tr>
+                        <td>Main Reactor
+                        </td>
+                        <td>Where the varying magnetic fields are being induced and manipulated</td>
+                    </tr>
+                    <tr>
+                        <td>Reactive Reactor</td>
+                        <td>Where a bucking magnetic field is being produced</td>
+                    </tr>
+                    <tr>
+                        <td>Compensating Reactor</td>
+                        <td>Where a boosting magnetic field is being produced</td>
+                    </tr>
+                    <tr>
+                        <td>Resonating Reactor</td>
+                        <td>Responsible for tuning the main reactor with the given load</td>
+                    </tr>
 
 
-            </table>
-            <div class="graph-arictle">
-                <p>The above-mentioned components work as a whole system to produce an expanding and contracting
-                    magnetic field on the main reactors by means of electromagnetic feedback induction phenomena. They
-                    are connected in such a way that allows for the simulation of a conventional generator’s generation
-                    of varying magnetic fields on the stator. In the case of EER, however, this is accomplished on the
-                    main reactor without the use of a prime mover and, instead, with electromagnetic field-induced
-                    feedback. The varying magnetic fields in the main reactors are being manipulated by the use of the
-                    three other aforementioned reactors. With a current flowing on the windings of each reactor, a
-                    magnetic field is produced and an electromagnetic field-induced feedback can be manipulated to
-                    expand and contract the magnetic field in the main reactor in resonance with the connected load.
-                </p>
-                <p>During the initial stage, an external AC or pulse current is needed to produce electromagnetism in
-                    the main reactor assembly that serves as the initial excitation. This electromagnetism on the main
-                    reactors, with the induced electromagnetic feedback reaction of the three other reactors, generates
-                    the desired varying magnetic fields or forces on the main reactors. The phenomena manifests when a
-                    current is present on each reactor assembly, thus producing each their respective magnetic fields or
-                    forces in conjunction with the connected load at the output of the main inverter.
-                </p>
-                <p>Once the unit has started and a load or load banks are connected to the output via a smart seamless
-                    on-off-on grid inverter, high-intensity magnetic fields are produced within the reactor assemblies
-                    directly proportional to the load current. These magnetic fields or forces being produced by the
-                    load currents on each of the three reactors produce the desired effects of varying magnetic fields
-                    on the main reactor through active manipulation. By means of active manipulation of the respective
-                    magnetic fields or forces of the three-reactor system, the induced varying magnetic fields in the
-                    main reactors can be increased or decreased in resonance with the given load. This process is
-                    attained by manipulating the respective magnetic fields of each of the three individual reactors to
-                    induct a positive electromagnetic magnetic force (emf) on the main reactors.
-                </p>
-                <p>Since the system has no revolving parts and the forces of reaction by the magnetic fields of the back
-                    emf which prove detrimental to the conventional generator, preventing it from generating a COP > 1 –
-                    are instead being used by the three-reactor system of the EER to generate an intensified varying
-                    magnetic fields on the main reactor, (cancelling the effect of back emf induced by the connected
-                    load) and inducing instead a positive feedback emf necessary to regenerate power to power up the
-                    connected load. This process of regeneration is attained by the intensified varying forces of
-                    electromagnetism knocking lose the electrons from the shell of the atoms held by surrounding gases
-                    in the immediate surrounding atmosphere causing a chain-reaction among atoms. The electrons knock
-                    out from the shell of the atoms in the surrounding environment or space become “free electrons”
-                    freely harvested and harnessed by forces of electromagnetism in the EER-SPG to generate electricity
-                    making it possible to have the COP of the system to exceed one (1). As per actual testing by the
-                    National Power Corporation of the Philippines (NPC) in 2017, even achieve a measured value of 3.15.
-                    The system is currently designed with a loop back inverter, sourcing the excitation from the main
-                    output of the system to enable the system to be self- sustaining after just an initial round of
-                    excitation. As an example, with the measurement of NPC having the loop back excitation after start
-                    up, the net output of the system will be more than 200%.3
-                </p>
-                <p>
+                </table>
+                <div class="graph-arictle">
+                    <p>The above-mentioned components work as a whole system to produce an expanding and contracting
+                        magnetic field on the main reactors by means of electromagnetic feedback induction phenomena.
+                        They
+                        are connected in such a way that allows for the simulation of a conventional generator’s
+                        generation
+                        of varying magnetic fields on the stator. In the case of EER, however, this is accomplished on
+                        the
+                        main reactor without the use of a prime mover and, instead, with electromagnetic field-induced
+                        feedback. The varying magnetic fields in the main reactors are being manipulated by the use of
+                        the
+                        three other aforementioned reactors. With a current flowing on the windings of each reactor, a
+                        magnetic field is produced and an electromagnetic field-induced feedback can be manipulated to
+                        expand and contract the magnetic field in the main reactor in resonance with the connected load.
+                    </p>
+                    <p>During the initial stage, an external AC or pulse current is needed to produce electromagnetism
+                        in
+                        the main reactor assembly that serves as the initial excitation. This electromagnetism on the
+                        main
+                        reactors, with the induced electromagnetic feedback reaction of the three other reactors,
+                        generates
+                        the desired varying magnetic fields or forces on the main reactors. The phenomena manifests when
+                        a
+                        current is present on each reactor assembly, thus producing each their respective magnetic
+                        fields or
+                        forces in conjunction with the connected load at the output of the main inverter.
+                    </p>
+                    <p>Once the unit has started and a load or load banks are connected to the output via a smart
+                        seamless
+                        on-off-on grid inverter, high-intensity magnetic fields are produced within the reactor
+                        assemblies
+                        directly proportional to the load current. These magnetic fields or forces being produced by the
+                        load currents on each of the three reactors produce the desired effects of varying magnetic
+                        fields
+                        on the main reactor through active manipulation. By means of active manipulation of the
+                        respective
+                        magnetic fields or forces of the three-reactor system, the induced varying magnetic fields in
+                        the
+                        main reactors can be increased or decreased in resonance with the given load. This process is
+                        attained by manipulating the respective magnetic fields of each of the three individual reactors
+                        to
+                        induct a positive electromagnetic magnetic force (emf) on the main reactors.
+                    </p>
+                    <p>Since the system has no revolving parts and the forces of reaction by the magnetic fields of the
+                        back
+                        emf which prove detrimental to the conventional generator, preventing it from generating a COP >
+                        1 –
+                        are instead being used by the three-reactor system of the EER to generate an intensified varying
+                        magnetic fields on the main reactor, (cancelling the effect of back emf induced by the connected
+                        load) and inducing instead a positive feedback emf necessary to regenerate power to power up the
+                        connected load. This process of regeneration is attained by the intensified varying forces of
+                        electromagnetism knocking lose the electrons from the shell of the atoms held by surrounding
+                        gases
+                        in the immediate surrounding atmosphere causing a chain-reaction among atoms. The electrons
+                        knock
+                        out from the shell of the atoms in the surrounding environment or space become “free electrons”
+                        freely harvested and harnessed by forces of electromagnetism in the EER-SPG to generate
+                        electricity
+                        making it possible to have the COP of the system to exceed one (1). As per actual testing by the
+                        National Power Corporation of the Philippines (NPC) in 2017, even achieve a measured value of
+                        3.15.
+                        The system is currently designed with a loop back inverter, sourcing the excitation from the
+                        main
+                        output of the system to enable the system to be self- sustaining after just an initial round of
+                        excitation. As an example, with the measurement of NPC having the loop back excitation after
+                        start
+                        up, the net output of the system will be more than 200%.3
+                    </p>
+                    <p>
 
-                    The initial source of excitation can be turned off or diverted to the main output (after the EER
-                    system generates the initial output with the load or group of loads connected) through
-                    synchronization, augmenting the capacity of the main output of the EER, as in the case of a
-                    renewable energy source. If the initial excitation is being handled by a battery bank through an
-                    inverter, the same battery bank will be disconnected once the EER is running and generating the
-                    desired output capacity. The battery bank will then be charged by the automatic charging system
-                    built into the EER system, maintaining necessary charges for future black-starting in the event of
-                    the system tripping or in compliance with the EER’s regular maintenance schedule. As such, the EER
-                    system is ideal as a distributed power generating units with grid black-starting capability and as
-                    an embedded power generating units. Recent design upgrades of the EER-SPG yields higher COP and
-                    better performance.
+                        The initial source of excitation can be turned off or diverted to the main output (after the EER
+                        system generates the initial output with the load or group of loads connected) through
+                        synchronization, augmenting the capacity of the main output of the EER, as in the case of a
+                        renewable energy source. If the initial excitation is being handled by a battery bank through an
+                        inverter, the same battery bank will be disconnected once the EER is running and generating the
+                        desired output capacity. The battery bank will then be charged by the automatic charging system
+                        built into the EER system, maintaining necessary charges for future black-starting in the event
+                        of
+                        the system tripping or in compliance with the EER’s regular maintenance schedule. As such, the
+                        EER
+                        system is ideal as a distributed power generating units with grid black-starting capability and
+                        as
+                        an embedded power generating units. Recent design upgrades of the EER-SPG yields higher COP and
+                        better performance.
 
 
-                </p>
-            </div>
-        </section>
+                    </p>
+                </div>
+            </section>
+        </div>
     </div>
-    <div class="techfeature">
+    <div class="techfeature global-width">
         <div class="framer">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/pq8ouKgTagU?si=jB5wvy79ZpmNhn2A"
                 title="YouTube video player" frameborder="0"
@@ -304,7 +340,7 @@
             </ul>
         </div>
     </div>
-    <div class="offer6">
+    <div class="offer6 global-width">
         <section>
             <h2>Electrical Performance Specification</h2>
             <p>Introduction</p>
@@ -352,7 +388,7 @@
         </section>
 
     </div>
-    <div class="offer7">
+    <div class="offer7 global-width">
         <section>
             <h2>Techincal Data</h2>
             <section class="table-content7">
@@ -734,12 +770,12 @@
             </section>
         </section>
     </div>
-    <div class="offer8">
+    <div class="offer8 global-width">
         <section>
             <h2>Rendering</h2>
 
         </section>
-        <div class="offer8center">
+        <div class="offer8center ">
             <img src="<?php echo OMNI_IMG . "/sinag eer.jpg" ?>" alt="">
             <p>The stationary power generation application of the EER technology is made available in 1MW commercial
                 units as depicted in Figure 1 above. Each unit measures no more than 10 m2, housing the system’s unique
@@ -753,7 +789,7 @@
             </p>
         </div>
     </div>
-    <div class="offer9">
+    <div class="offer9 global-width">
         <section>
             <h2>Let's Power the Future Together</h2>
             <p>Highlights</p>

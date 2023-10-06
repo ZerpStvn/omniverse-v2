@@ -1,6 +1,6 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-    <a href="<?php echo get_home_url() ?>">
+    <a href="<?php echo get_home_url() . "/contact" ?>">
         <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>

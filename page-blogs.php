@@ -1,14 +1,14 @@
 <?php echo get_header(); ?>
 <div class="contactfloat global-width">
-    <a href="<?php echo get_home_url() ?>">
+    <a href="<?php echo get_home_url() . "/contact" ?>">
         <section>
             <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
             <p>Contact Us</p>
         </section>
     </a>
 </div>
-<main class="blog-main global-width">
-    <div class="navbar">
+<main class="blog-main">
+    <div class="navbar  global-width">
         <section>
             <div class="header-menu">
                 <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
@@ -32,7 +32,15 @@
             </nav>
         </section>
     </div>
-    <div class="blog-sec1">
+    <div class="about1 offer ">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <section>
+            <h2>Omniverse Articles</h2>
+            <p>Omniverse Engergy,amagenemt Inc.</p>
+        </section>
+    </div>
+
+    <div class="blog-sec1  global-width">
         <section class="blog-intro">
             <h2>Omniverse Articles</h2>
             <p> omniverse updates</p>

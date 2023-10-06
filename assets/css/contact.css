@@ -85,7 +85,7 @@
 .contact-flex > input {
   padding-left: 13px;
 }
-#submitbtton {
+#submitbutton {
   color: white;
   border: none;
   font-size: 18px;
@@ -118,7 +118,6 @@
   }
   .contactform {
     padding: 0px 9px 40px 9px;
-    
   }
   .contact-details > .contactif {
     border-radius: 0px;
@@ -131,8 +130,8 @@
   }
   .contact1 > section > p {
     font-size: 21px;
-}
-.numberssection {
+  }
+  .numberssection {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }

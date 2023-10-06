@@ -1,7 +1,7 @@
 <?php echo get_header(); ?>
 
-<main class="conact-main global-width">
-    <div class="navbar">
+<main class="conact-main ">
+    <div class="navbar global-width">
         <section>
             <div class="header-menu">
                 <h1><a href="<?php echo get_home_url() . "/home" ?>"><img
@@ -25,14 +25,14 @@
             </nav>
         </section>
     </div>
-    <div class="contact1">
-        <img src="<?php echo OMNI_IMG . "/sample-img2.png" ?>" alt="">
-        <section>
+    <div class="contact1 ">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <section class="global-width">
             <h2>Contact Us</h2>
             <p>Tell us About yourSelf</p>
         </section>
     </div>
-    <div class="contact2">
+    <div class="contact2 global-width">
         <div class="contact-details">
             <div class="contactif">
                 <section>
@@ -50,7 +50,7 @@
                         </li>
                         <li>
                             <p><span><img src="<?php echo OMNI_IMG . "/ico_phone.svg" ?>" alt="Omniverse Phone"></span>
-                                +639213456789</p>
+                                +63 0916 215 4768</p>
                         </li>
 
                     </ul>
@@ -99,52 +99,42 @@
                 </section>
             </div>
             <div class="contactform">
-                <form action="">
+                <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post">
                     <div class="contact-flex name">
-                        <Label>Full name</Label>
-                        <input type="text" name="username">
+                        <label for="username">Full Name</label>
+                        <input type="text" name="username" id="username">
                     </div>
                     <div class="contact-flex email">
-                        <Label>Email</Label>
-                        <input type="text" name="email">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
                     </div>
                     <div class="numberssection">
-                        <div class=" contact-flex number">
-                            <label for="">
-                                Mobile Number
-                            </label>
-                            <input type="text" name="number">
+                        <div class="contact-flex number">
+                            <label for="number">Mobile Number</label>
+                            <input type="text" name="number" id="number">
                         </div>
                         <div class="contact-flex phone">
-                            <label for="">
-                                Phone Number
-                            </label>
-                            <input type="text" name="phonenumer">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="text" name="phonenumber" id="phonenumber">
                         </div>
                     </div>
                     <div class="contact-flex company">
-                        <label for="">
-                            Company
-                        </label>
-                        <input type="text" name="company">
+                        <label for="company">Company</label>
+                        <input type="text" name="company" id="company">
                     </div>
                     <div class="contact-flex inquiry">
-                        <label for="">
-                            Inquiry Subject
-                        </label>
-                        <select name="industry" id="">
+                        <label for="inquiry">Inquiry Subject</label>
+                        <select name="inquiry" id="inquiry">
                             <option value=""></option>
                             <option value="Product Inquiry">Product Inquiry</option>
-                            <option value="Appointement">Appointment</option>
+                            <option value="Appointment">Appointment</option>
                             <option value="General Inquiry">General Inquiry</option>
                             <option value="Others">Others</option>
                         </select>
                     </div>
                     <div class="contact-flex industry">
-                        <label for="">
-                            Industry
-                        </label>
-                        <select name="industry" id="">
+                        <label for="industry">Industry</label>
+                        <select name="industry" id="industry">
                             <option value=""></option>
                             <option value="Real Estate">Real Estate</option>
                             <option value="School">School</option>
@@ -153,13 +143,14 @@
                         </select>
                     </div>
                     <div class="contact-flex message">
-                        <label for="">Message</label>
-                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
-                    <Button type="submit" id="submitbtton">
-                        SUBMIT
-                    </Button>
+                    <input type="hidden" name="action" value="custom_form_submission">
+                    <?php wp_nonce_field('custom_form_nonce', 'custom_form_nonce_field'); ?>
+                    <button type="submit" id="submitbutton">SUBMIT</button>
                 </form>
+
             </div>
         </div>
     </div>
