@@ -160,10 +160,8 @@ function handle_custom_form_submission()
         $username = sanitize_text_field($_POST['username']);
         $email = sanitize_email($_POST['email']);
         $number = sanitize_text_field($_POST['number']);
-        $phonenumber = sanitize_text_field($_POST['phonenumber']);
         $company = sanitize_text_field($_POST['company']);
         $inquiry = sanitize_text_field($_POST['inquiry']);
-        $industry = sanitize_text_field($_POST['industry']);
         $message = esc_textarea($_POST['message']);
 
         $subject = $inquiry;
@@ -171,15 +169,15 @@ function handle_custom_form_submission()
         $message_body = "Full Name: $username\n";
         $message_body .= "Email: $email\n";
         $message_body .= "Mobile Number: $number\n";
-        $message_body .= "Phone Number: $phonenumber\n";
         $message_body .= "Company: $company\n";
-        $message_body .= "Inquiry Subject: $inquiry\n";
-        $message_body .= "Industry: $industry\n\n";
+        $message_body .= "Inquiry Subject: $inquiry\n\n\n\n";
         $message_body .= "Message:\n$message";
+
+
 
         $headers = array('Content-Type: text/plain; charset=UTF-8');
 
-        $recipient_email = 'stevefelizardo4@gmail.com'; // Replace with your recipient's email address
+        $recipient_email = 'stevefelizardo4@gmail.com';
 
         $email_sent = wp_mail($recipient_email, $subject, $message_body, $headers);
 

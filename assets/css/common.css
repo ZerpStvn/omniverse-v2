@@ -494,16 +494,19 @@ body {
 @media (max-width: 1228px) {
   .section1-vid,
   .section2-vid,
-  .secton-flex-vid {
+  .section3-vid {
     margin-top: 10px;
     width: 100%;
   }
   .section2-vid > img,
-  .secton-flex-vid > img {
+  .section3-vid > img {
     max-width: 1000px;
     width: 100%;
     height: 296px;
     object-fit: cover;
+  }
+  .secton-flex {
+    justify-content: start;
   }
   .secton-flex > section > h2,
   .secton-flex > section > p,
@@ -538,11 +541,11 @@ body {
   }
   .section1-vid,
   .section2-vid,
-  .secton-flex-vid {
+  .section3-vid {
     margin-top: 10px;
     width: 100%;
   }
-  .secton-flex-vid > img,
+  .section3-vid > img,
   .section2-vid > img,
   .section1-vid > iframe {
     width: 100%;

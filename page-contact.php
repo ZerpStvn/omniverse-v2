@@ -102,21 +102,15 @@
                 <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post">
                     <div class="contact-flex name">
                         <label for="username">Full Name</label>
-                        <input type="text" name="username" id="username">
+                        <input type="text" name="username" id="username" required>
                     </div>
                     <div class="contact-flex email">
                         <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
+                        <input type="text" name="email" id="email" required>
                     </div>
-                    <div class="numberssection">
-                        <div class="contact-flex number">
-                            <label for="number">Mobile Number</label>
-                            <input type="text" name="number" id="number">
-                        </div>
-                        <div class="contact-flex phone">
-                            <label for="phonenumber">Phone Number</label>
-                            <input type="text" name="phonenumber" id="phonenumber">
-                        </div>
+                    <div class="contact-flex number">
+                        <label for="number">Contact Number</label>
+                        <input type="text" name="number" id="number" required>
                     </div>
                     <div class="contact-flex company">
                         <label for="company">Company</label>
@@ -125,21 +119,11 @@
                     <div class="contact-flex inquiry">
                         <label for="inquiry">Inquiry Subject</label>
                         <select name="inquiry" id="inquiry">
-                            <option value=""></option>
+                            <option value=""> Select Category</option>
                             <option value="Product Inquiry">Product Inquiry</option>
                             <option value="Appointment">Appointment</option>
                             <option value="General Inquiry">General Inquiry</option>
                             <option value="Others">Others</option>
-                        </select>
-                    </div>
-                    <div class="contact-flex industry">
-                        <label for="industry">Industry</label>
-                        <select name="industry" id="industry">
-                            <option value=""></option>
-                            <option value="Real Estate">Real Estate</option>
-                            <option value="School">School</option>
-                            <option value="University">University</option>
-                            <option value="Manufacturing">Manufacturing</option>
                         </select>
                     </div>
                     <div class="contact-flex message">
