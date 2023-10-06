@@ -179,8 +179,10 @@
   border-bottom: 2px solid black;
 }
 /* npc */
+.npc_bg {
+  background: var(--main-color);
+}
 .npc {
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -195,9 +197,16 @@
   object-fit: cover;
 }
 .npc > section {
+  color: white;
   padding: 20px;
   max-width: 800px;
   width: 100%;
+}
+.npc > section > h2 {
+  font-size: 44px;
+}
+.npc > section > p {
+  font-size: 20px;
 }
 /* about4 */
 .about4 {

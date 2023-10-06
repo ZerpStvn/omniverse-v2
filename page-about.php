@@ -149,14 +149,17 @@
 
         </section>
     </div>
-    <div class="npc global-width">
-        <img src="<?php echo OMNI_IMG . "/npc.jpg" ?>" alt="">
-        <section>
-            <h2>The National Power Corporation</h2>
-            <p>The National Power Corporation is a Philippine government-owned and controlled corporation that is
-                mandated to provide electricity to all rural areas of the Philippines by 2025, to manage water resources
-                for power generation, and to optimize the use of other power generating assets.</p>
-        </section>
+    <div class="npc_bg">
+        <div class="npc global-width">
+            <img src="<?php echo OMNI_IMG . "/npc.jpg" ?>" alt="">
+            <section>
+                <h2>The National Power Corporation</h2>
+                <p>The National Power Corporation is a Philippine government-owned and controlled corporation that is
+                    mandated to provide electricity to all rural areas of the Philippines by 2025, to manage water
+                    resources
+                    for power generation, and to optimize the use of other power generating assets.</p>
+            </section>
+        </div>
     </div>
     <div class="about4 global-width">
         <section>
