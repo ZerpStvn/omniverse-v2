@@ -292,3 +292,22 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 488px) {
+  .npc > img {
+    width: 200px;
+    height: 312px;
+    object-fit: cover;
+  }
+  .npc > section > h2 {
+    font-size: 35px;
+  }
+  .npc > section > p {
+    font-size: 18px;
+  }
+  .about3 > section > h2 {
+    font-size: 28px;
+  }
+  .about2 > section > h2 {
+    font-size: 28px;
+  }
+}
