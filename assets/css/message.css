@@ -1,0 +1,24 @@
+.messagewrap{
+    width: 100%;
+    height: 50vh;
+    padding: 0 20px;
+}
+.thank-you{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.thank-you > h2{
+    font-size: 44px;
+}
+.thank-you > p:nth-child(3){
+    margin-top: 30px;
+}
+.thank-you > p{
+  max-width: 812px;
+  width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.faqs1 {
+  padding: 112px 20px;
+}
+.faqs1 > section > h2 {
+  color: var(--omni-yellow);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--omni-yellow);
+}
+.faqs1 > ul {
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.faqs1 > ul > li > section > p {
+  margin-top: 20px;
+}

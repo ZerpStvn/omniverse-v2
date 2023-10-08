@@ -1,0 +1,138 @@
+.contact1 {
+  width: 100%;
+  position: relative;
+}
+.contact1 > img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+.contact1 > section {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.contact1 > section > h2 {
+  font-size: 71px;
+}
+.contact1 > section > p {
+  font-size: 24px;
+}
+.contact2 {
+  padding: 50px;
+}
+.contact-details {
+  width: 100%;
+  display: flex;
+}
+.contact-details > .contactif > section {
+  padding: 30px;
+  border-bottom: 1px solid;
+}
+.contact-details > .contactif > section > ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.contact-details > .contactif {
+  border-radius: 5px;
+  color: var(--main-color);
+  max-width: 530px;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--omni-yellow);
+}
+.contact-socials > ul > li > a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.contact-lincese > ul > li {
+  margin-top: 20px;
+}
+.contactform {
+  max-width: 900px;
+  width: 100%;
+  padding: 30px;
+}
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+}
+.contact-flex {
+  margin-top: 10px;
+}
+.contact-flex > input,
+.contact-flex > select {
+  width: 100%;
+  height: 45px;
+}
+.numberssection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.message > textarea {
+  resize: none;
+  margin-top: 5px;
+  padding: 13px;
+}
+.contact-flex > input {
+  padding-left: 13px;
+}
+#submitbutton {
+  color: white;
+  border: none;
+  font-size: 18px;
+  background-color: var(--omni-yellow);
+  max-width: 280px;
+  width: 100%;
+  border-radius: 5px;
+  height: 45px;
+  margin-top: 20px;
+}
+@media (max-width: 788px) {
+  .contact-details {
+    flex-direction: column-reverse;
+  }
+  .contact-details > .contactif {
+    max-width: 988px;
+    width: 100%;
+  }
+  #submitbtton {
+    max-width: 980px;
+    width: 100%;
+  }
+}
+@media (max-width: 488px) {
+  .contact2 {
+    padding: 0;
+  }
+  .contact-details {
+    flex-direction: column-reverse;
+  }
+  .contactform {
+    padding: 0px 9px 40px 9px;
+  }
+  .contact-details > .contactif {
+    border-radius: 0px;
+  }
+  .contact1 > section > h2 {
+    font-size: 54px;
+  }
+  .contact1 > section {
+    left: 12px;
+  }
+  .contact1 > section > p {
+    font-size: 21px;
+  }
+  .numberssection {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
