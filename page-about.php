@@ -41,7 +41,7 @@
     </div>
     <div class="about2 global-width">
         <section>
-            <h2>Omniverse Energy Management Inc</h2>
+            <h1>Omniverse Energy Management Inc</h1>
             <p>Founded in 2023, is a reputable company operating as an authorized sub-licensee of Gem Power Philippines,
                 and it operates under the esteemed umbrella of the Inventor's Own company, Green Energy Machine
                 Investment Corp. With a strong commitment to Corporate Social Responsibility, Omniverse is deeply

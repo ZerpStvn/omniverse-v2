@@ -35,7 +35,7 @@
     <div class="about1 offer ">
         <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
         <section>
-            <h2>Omniverse Articles</h2>
+            <h1>Omniverse Articles</h1>
             <p>Omniverse Engergy,amagenemt Inc.</p>
         </section>
     </div>

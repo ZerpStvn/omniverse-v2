@@ -43,7 +43,7 @@ function add_pages()
         array(
             'post_title' => 'Home',
             'post_content' => 'Home page',
-            'post_excerpt' => 'Learn about our company and our mission to provide innovative solutions in clean energy. Discover our team and values at Company Name.',
+            'post_excerpt' => 'Learn about our company and our missiona and Discover our team and values at Company Name.',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -52,7 +52,7 @@ function add_pages()
         array(
             'post_title' => 'Who we are',
             'post_content' => 'Who we are',
-            'post_excerpt' => 'Learn all about Metaverse discover our awesome products',
+            'post_excerpt' => 'Founded in 2023, is a reputable company operating as an authorized sub-licensee of Gem Power Philippines, and it operates under the esteemed umbrella of the Inventors Own company, Green Energy Machine Investment Corp.',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -61,7 +61,7 @@ function add_pages()
         array(
             'post_title' => 'What we offer',
             'post_content' => 'What we offer',
-            'post_excerpt' => 'Explore our range of services, including renewable energy solutions, energy consulting, and sustainability assessments. Find out how we can help your business.',
+            'post_excerpt' => 'The Electromagnetic Energy-Flux Reactor',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -79,7 +79,6 @@ function add_pages()
         array(
             'post_title' => 'Blog',
             'post_content' => 'Blogs',
-            'post_excerpt' => 'Explore our product Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -95,17 +94,7 @@ function add_pages()
             'post_name' => 'contact'
         ),
         array(
-            'post_title' => 'Privacy Policy',
-            'post_content' => 'Privacy Policy',
-            'post_excerpt' => 'Omniverse Privacy Policy',
-            'post_status' => 'publish',
-            'post_author' => 1,
-            'post_type' => 'page',
-            'post_name' => 'privacy'
-        ),
-        array(
             'post_title' => 'Thank You',
-            'post_content' => 'Thank You',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -177,7 +166,7 @@ function handle_custom_form_submission()
 
         $headers = array('Content-Type: text/plain; charset=UTF-8');
 
-        $recipient_email = 'stevefelizardo4@gmail.com';
+        $recipient_email = 'omv_info@omniverse.com.ph';
 
         $email_sent = wp_mail($recipient_email, $subject, $message_body, $headers);
 

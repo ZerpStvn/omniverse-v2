@@ -20,6 +20,7 @@
   justify-content: center;
   color: white;
 }
+.about1 > section > h1,
 .about1 > section > h2 {
   text-align: center;
   font-size: 65px;
@@ -44,7 +45,7 @@
   margin-top: 20px;
   line-height: 30px;
 }
-.about2 > section > h2 {
+.about2 > section > h1 {
   font-size: 39px;
 }
 .about2 > img,
@@ -307,7 +308,10 @@
   .about3 > section > h2 {
     font-size: 28px;
   }
-  .about2 > section > h2 {
+  .about2 > section > h1 {
     font-size: 28px;
+  }
+  .about1 > section > h1 {
+    font-size: 45px;
   }
 }

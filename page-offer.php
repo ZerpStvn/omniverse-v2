@@ -63,7 +63,7 @@
     <div class="offer3 bg">
         <div class="offer3 global-width">
             <section>
-                <h2>Stationary Power Generation Application</h2>
+                <h1>Stationary Power Generation Application</h1>
                 <p>EER stationary power generation (EER-SPG) systems are scalable, portable, have minimal moving parts,
                     do
                     not make use of fossil fuels as input and do not emit harmful wastes or emissions to the

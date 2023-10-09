@@ -2,7 +2,7 @@
 <div class="contactfloat global-width">
     <a href="<?php echo get_home_url() . "/contact" ?>">
         <section>
-            <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt=""></h2>
+            <h2><img src="<?php echo OMNI_IMG . "/omni-logo2.svg" ?>" alt="omniverse"></h2>
             <p>Contact Us</p>
         </section>
     </a>
@@ -34,13 +34,13 @@
         </section>
     </div>
     <section id="section1" class="section1 ">
-        <h2><img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt=""></h2>
+        <h2><img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="omniverse"></h2>
         <div class="section-details-wrap global-width">
             <div class="section-deatils-container">
                 <div class="section1-details ">
                     <p>Powers you everywhere, all the Time!</p>
                     <!-- <p>Power your business with renewable energy.</p> -->
-                    <a id="main-button" href="<?php echo get_home_url() . "/about" ?>"> Learn More <i></i></a>
+                    <a id="main-button" href="<?php echo get_home_url() . "/about" ?>"> Abou us <i></i></a>
                 </div>
                 <div class="section1-vid">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/HNoRRO15pgc?si=8lfNhWiEe1UYFVQB"
@@ -54,15 +54,15 @@
     </section>
     <div id="section2" class="section2 global-width">
         <section>
-            <h2>Electromagnetic Energy-flux Reactor Stationary Power Generator (EER SPG)</h2>
+            <h1>Electromagnetic Energy-flux Reactor Stationary Power Generator (EER SPG)</h1>
             <p> Electromagnetic Energy-flux Reactor Stationary Power Generator (EER SPG) is a pioneering technology that
                 harnesses energy from ambient sources, transforming it into a reliable power supply for commercial and
                 industrial applications. EER SPG has emerged as a ground-breaking innovation, making history as the
                 World's 1st commercial and industrial Renewable Stationary Power Generator utilizing ambient sources.
             </p>
-            <a id="main-button" href=""> Learn More <i></i></a>
+            <a id="main-button" href="<?php echo get_home_url() . "/offer" ?>"> Learn More <i></i></a>
         </section>
-        <div class="section2-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="">
+        <div class="section2-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="omniverse">
         </div>
     </div>
     <div id="section3" class="section3">
@@ -79,7 +79,7 @@
                     reactors assembly...</p>
                 <a id="main-button" href=""> Learn More <i></i></a>
             </section>
-            <div class="section3-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="">
+            <div class="section3-vid"> <img src="<?php echo OMNI_IMG . "/eerg.jpg" ?>" loading="lazy" alt="omniverse">
             </div>
         </div>
     </div>
@@ -90,165 +90,173 @@
             </h2>
             <ul class="flagspatent">
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bhr.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bhr.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Bahrain</p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bwa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/bwa.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Botswana</p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/swz.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/swz.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Eswatini (Swaziland)
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/eun.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/eun.svg" ?>" loading="lazy" alt="omniverse"></span>
                         European Union
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gmb.svg" ?>" loading="lazy" alt=""></span> Gambia
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gmb.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Gambia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gha.svg" ?>" loading="lazy" alt=""></span> Ghana
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/gha.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Ghana
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/hkg.svg" ?>" loading="lazy" alt=""></span> Hong
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/hkg.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Hong
                         Kong
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ind.svg" ?>" loading="lazy" alt=""></span> India
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ind.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        India
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/idn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/idn.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Indonesia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/jpn.svg" ?>" loading="lazy" alt=""></span> Japan
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/jpn.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Japan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ken.svg" ?>" loading="lazy" alt=""></span> Kenya
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/ken.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Kenya
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kwt.svg" ?>" loading="lazy" alt=""></span> Kuwait
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kwt.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Kuwait
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lso.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lso.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Lesotho
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lbr.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/lbr.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Liberia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mys.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mys.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Malaysia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mwi.svg" ?>" loading="lazy" alt=""></span> Malawi
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/mwi.svg" ?>" loading="lazy" alt="omniverse"></span>
+                        Malawi
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/moz.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/moz.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Mozambique
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/nam.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/nam.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Namibia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/omn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/omn.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Oman
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/qat.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/qat.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Qatar
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/rwa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/rwa.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Rwanda
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/stp.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/stp.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Sao Tome and Principe
 
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sle.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sle.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Sierra Leone
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sgp.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sgp.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Singapore
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/som.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/som.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Somalia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kor.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/kor.svg" ?>" loading="lazy" alt="omniverse"></span>
                         South Korea
 
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sdn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/sdn.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Sudan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/twn.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/twn.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Taiwan
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/uga.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/uga.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Uganda
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/are.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/are.svg" ?>" loading="lazy" alt="omniverse"></span>
                         United Arab Emirates
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/tza.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/tza.svg" ?>" loading="lazy" alt="omniverse"></span>
                         United Republic of Tanzania
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/usa.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/usa.svg" ?>" loading="lazy" alt="omniverse"></span>
                         United States of America
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zmb.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zmb.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Zambia
                     </p>
                 </li>
                 <li>
-                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zwe.svg" ?>" loading="lazy" alt=""></span>
+                    <p><span><img src="<?php echo OMNI_IMG . "/flags/zwe.svg" ?>" loading="lazy" alt="omniverse"></span>
                         Zimbabwe
                     </p>
                 </li>
@@ -326,7 +334,7 @@
         </ul>
     </div>
     <div class="infosectionn">
-        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="omniverse">
         <div>
             <div class="timeline global-width">
                 <!-- <div class="timelinephase">
@@ -444,13 +452,13 @@
 
                     <li>
                         <section>
-                            <h3><img src="<?php echo OMNI_IMG . "/Gemcor.png" ?>" alt=""></h3>
+                            <h3><img src="<?php echo OMNI_IMG . "/Gemcor.png" ?>" alt="omniverse"></h3>
                             <p>Green Energy Machine Investment Corp.</p>
                         </section>
                     </li>
                     <li>
                         <section>
-                            <h3><img src="<?php echo OMNI_IMG . "/singa.png" ?>" alt=""></h3>
+                            <h3><img src="<?php echo OMNI_IMG . "/singa.png" ?>" alt="omniverse"></h3>
                             <p>
                                 Sinag Global Energy Corp.
                             </p>
@@ -458,13 +466,13 @@
                     </li>
                     <li>
                         <section>
-                            <h3><img src="<?php echo OMNI_IMG . "/Gempower.png" ?>" alt=""></h3>
+                            <h3><img src="<?php echo OMNI_IMG . "/Gempower.png" ?>" alt="omniverse"></h3>
                             <p>GEM Power Philippines</p>
                         </section>
                     </li>
                     <li>
                         <section>
-                            <h3><img src="<?php echo OMNI_IMG . "/sinartec.png" ?>" alt=""></h3>
+                            <h3><img src="<?php echo OMNI_IMG . "/sinartec.png" ?>" alt="omniverse"></h3>
                             <p>Sinartec Energy Sdn. Bhd.</p>
                         </section>
                     </li>
@@ -475,7 +483,7 @@
     </div>
     <div class="section5">
 
-        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="">
+        <img src="<?php echo OMNI_IMG . "/bg_eerg.png" ?>" alt="omniverse">
         <section>
             <h2>Visit Contact Page</h2>
             <p>Reach out to us for any inquiries, questions, or feedback</p>
