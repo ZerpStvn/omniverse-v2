@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #c39af1;
+  background-color: var(--omni-yellow);
   box-shadow: 0px 0px 1px 3px white;
 }
 
@@ -45,6 +45,7 @@ body {
 }
 .contactfloat > a > section > p {
   font-size: 13px;
+  font-weight: bold;
 }
 /*section 1  */
 .section1 {
@@ -637,7 +638,7 @@ body {
     font-size: 40px;
   }
   .section1 > h2 > img {
-    height: 950px;
+    height: 850px;
   }
   .section1 .section-details-wrap {
     padding: 12px 13px;
@@ -684,7 +685,7 @@ body {
     font-size: 12px;
   }
   .infosectionn {
-    height: 1264px;
+    height: 1310px;
     object-fit: cover;
   }
   .timelineinfo > p {
